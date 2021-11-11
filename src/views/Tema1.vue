@@ -2,6 +2,45 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+    .titulo-principal.color-acento-contenido(data-aos='flip-up')
+      .titulo-principal__numero
+        span 1
+      h1 Conceptos de logística y mercancías
+
+
+    
+
+    #t_1_1.titulo-segundo.color-secundario
+      h2 1.1. Medios de transporte
+
+
+
+
+
+
+
+    Separador
+    br
+    br
+    #t_1_2.titulo-segundo.color-secundario
+      h2 1.2. Simbología de manejo de carga
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     //- El componente "Muestras" tiene las aplicaciones de todos los componentes de la base
     //- se encuentra en src/components/Muestras.vue

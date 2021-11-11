@@ -2,14 +2,17 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+    
     .titulo-principal.color-acento-contenido(data-aos='flip-up')
       .titulo-principal__numero
-        span 2
-      h1 Ficha técnica de mercancías
+        span 5
+      h1 Clasificación de mercancías
 
 
     
 
+    #t_5_1.titulo-segundo.color-secundario
+      h2 5.1. Manipulación de mercancías 
 
 
 
@@ -18,14 +21,11 @@
 
 
 
-
-
-
-
-
-
-
-
+    Separador
+    br
+    br
+    #t_5_2.titulo-segundo.color-secundario
+      h2 5.2. Tipos de almacenamiento   
 
 
 
@@ -34,7 +34,7 @@
 
 <script>
 export default {
-  name: 'Tema2',
+  name: 'Tema5',
   data: () => ({
     // variables de vue
   }),

@@ -58,8 +58,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo:
-              'Solicitud de pedidos y despacho',
+            titulo: 'Solicitud de pedidos y despacho',
             hash: 't_3_1',
           },
           {
@@ -87,8 +86,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '5.1',
-            titulo:
-              'Manipulación de mercancías',
+            titulo: 'Manipulación de mercancías',
             hash: 't_5_1',
           },
           {
@@ -112,14 +110,14 @@ export default {
         numero: '7',
         titulo: 'Herramientas de comunicación',
         desarrolloContenidos: true,
-      },  
+      },
       {
         nombreRuta: 'tema8',
         icono: 'far fa-file-alt',
         numero: '8',
         titulo: 'Ciclo de pedido',
         desarrolloContenidos: true,
-      },            
+      },
     ],
     subMenu: [
       {
@@ -198,10 +196,10 @@ export default {
   ],
   complementario: [
     {
-      texto:
-        'Legicomex. (s.f.). Tipos de carga, regularizado.',
+      texto: 'Legicomex. (s.f.). Tipos de carga, regularizado.',
       tipo: 'Página web',
-      link: 'https://login.bdigital.sena.edu.co/login?url=https://www.legiscomex.com/Documentos/TIPOSDECARGA',
+      link:
+        'https://login.bdigital.sena.edu.co/login?url=https://www.legiscomex.com/Documentos/TIPOSDECARGA',
     },
     {
       texto:
@@ -210,8 +208,7 @@ export default {
       link: 'https://www.sic.gov.co/marco-normativo',
     },
     {
-      texto:
-        'Icontec. (2021). Ficha técnica de producto. ',
+      texto: 'Icontec. (2021). Ficha técnica de producto. ',
       tipo: 'Página web',
       link: 'https://www.icontec.org/portafolio-normalizacion/',
     },
@@ -234,15 +231,13 @@ export default {
       {
         nombre: 'Nelly Parra Guarín',
         cargo: 'Experta temática',
-        centro:
-          'Centro de gestión industrial - Regional Distrito Capital',
+        centro: 'Centro de gestión industrial - Regional Distrito Capital',
       },
       {
         nombre: 'Paula Andrea Taborda Ortiz',
         cargo: 'Diseñadora instruccional',
-        centro:
-          'Centro de diseño y metrología - Regional Distrito Capital',
-      },    
+        centro: 'Centro de diseño y metrología - Regional Distrito Capital',
+      },
       {
         nombre: 'Ana Catalina Córdoba Sus',
         cargo: 'Revisora metodológica y pedagógica',
@@ -254,7 +249,7 @@ export default {
         cargo: 'Corrector de estilo',
         centro:
           'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
-      },      
+      },
     ],
     desarrolloProducto: [
       {
@@ -285,7 +280,7 @@ export default {
         cargo: 'Soporte front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },      
+      },
       {
         nombre: 'Nombre',
         cargo: 'Producción audiovisual',
