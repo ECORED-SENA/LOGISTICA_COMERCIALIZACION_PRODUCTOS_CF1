@@ -7,7 +7,8 @@
       .titulo-principal__numero
         span 3
       h1 Ficha técnica de mercancías
-
+    .row.mb-5
+      
 
     
 
