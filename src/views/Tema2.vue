@@ -21,7 +21,7 @@
         .cajon.color-acento-contenido.p-4
           .row
             .col-lg-6
-              p.mb-3.p-4  La ficha técnica de un producto es la carta de presentación de la compañía y contiene propiedades físicas y químicas relevantes y correctas que ayudan al conveniente conocimiento y uso del producto, además le da prueba que se está cumpliendo con los estándares de calidad del producto.
+              p.mb-3.p-4.text-bold  La ficha técnica de un producto es la carta de presentación de la compañía y contiene propiedades físicas y químicas relevantes y correctas que ayudan al conveniente conocimiento y uso del producto, además le da prueba que se está cumpliendo con los estándares de calidad del producto.
             .col-lg-6
               .tabla-b.color-secundario.mb-5.shadow-box
                 table
