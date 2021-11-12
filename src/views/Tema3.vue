@@ -45,8 +45,6 @@
             .row
               .col-md-12.mb-4.mb-md-0
                 p Después de encontrar la ubicación de picking, <b>se dirigen al lugar y recogen los artículos de la estantería de almacenamiento</b>, identificando aquellos que van a ser clasificados, y a la vez contando el número de artículos.                 
-
-
         .col-lg-4
           figure
             img.nW(src='@/assets/curso/t3-i4.png' alt='imagen decorativa')
@@ -142,12 +140,68 @@
                 li
                   i.fas.fa-check
                   p.mb-0 Regreso a la zona de operaciones., se utiliza el concepto de secuenciación para garantizar el tiempo óptimo para este proceso.
+          .row
+            .col-md-9.mb-4.mb-md-0
+              h4 Extracción
+              ul.lista-ul
+                li
+                  i.fas.fa-check
+                  p.mb-0 También llamado retiro, es la actividad de  posicionarse donde se encuentra el producto a piso o en altura, hacer su extracción, recuento de producto y devolución sobrante si es el caso.
+         
+            .col-md-3
+              figure
+                img(src='@/assets/curso/t3-ic3.svg', alt='Imagen decorativa')
+
+          .row
+            .col-md-3.mb-4.mb-md-0
+              figure
+                img(src='@/assets/curso/t3-ic4.svg', alt='Imagen decorativa')
+            .col-md-9
+              .h4 Verificación del pedido preparado
+              ul.lista-ul
+                li
+                  i.fas.fa-check
+                  p.mb-0 Control, embalaje, acondicionado en cajas, precintado, pesaje y etiquetado.
+                li
+                  i.fas.fa-check
+                  p.mb-0 Traslado a zona de expedición y clasificación por transportistas en destino.
+                li
+                  i.fas.fa-check
+                  p.mb-0 Elaboración del <i>Packing List</i> del transportista.
 
 
+    .row.mb-5.justify-content-center
+      .col-lg-8
+        .cajon.color-acento-contenido.p-4
+          p.mb-0  <b>El segundo tiempo del recorrido denominado alistamiento o picking, es el más crítico.</b> Después sigue en orden de complejidad el de verificación, sin embargo, si se cuenta con la tecnología adecuada estos tiempos tienden a reducirse de manera significativa, optimizando el proceso.
 
+    p.mb-5  El despacho de mercancías es una fase de la logística cuyo propósito es que el producto salga de almacén y sea entregado a su destino final, a tiempo y en excelentes condiciones. En esta parte las principales tareas son: 
 
-
-
+    .neg-margin-x.bg-curved.mb-0
+      .row.justify-content-center.align-items-center
+        .col-lg-7
+          PasosA.color-secundario.mb-5(tipo="n")
+            .row
+              .col-md-12.mb-4.mb-md-0
+                p <b>Asegurar</b> una óptima administración de mercancías previamente del despacho.
+            .row
+              .col-md-12.mb-4.mb-md-0
+                p <b>Planificar</b> las entregas a hacer a lo largo del día.               
+            .row
+              .col-md-12.mb-4.mb-md-0
+                p <b>Comprobar</b> que cada producto y su documentación permanecen en orden.        
+            .row
+              .col-md-12.mb-4.mb-md-0
+                p <b>Cargar</b> la mercancía en el transporte adecuado.
+            .row
+              .col-md-12.mb-4.mb-md-0
+                p <b>Monitorear</b> el desarrollo del transporte logístico.  
+        
+        .col-lg-4
+          figure
+            img.nW(src='@/assets/curso/t3-i5.png' alt='imagen decorativa')
+    p.mb-5  A lo largo del despacho de mercancías hay probables errores que pueden impedir que se concrete la entrega al comprador, de aquí el valor de conocer cuáles son para evitarlos en la práctica. Al no monitorear las cambiantes externas a lo largo del despacho de mercancías, como resultado, se tendrá que:
+    
 
 
     Separador
