@@ -201,7 +201,34 @@
           figure
             img.nW(src='@/assets/curso/t3-i5.png' alt='imagen decorativa')
     p.mb-5  A lo largo del despacho de mercancías hay probables errores que pueden impedir que se concrete la entrega al comprador, de aquí el valor de conocer cuáles son para evitarlos en la práctica. Al no monitorear las cambiantes externas a lo largo del despacho de mercancías, como resultado, se tendrá que:
-    
+    .row.mb-5
+      .col-lg-6
+        figure
+          img(src='@/assets/curso/t3-i6.svg' alt='imagen decorativa')
+      .col-lg-6
+        ol.lista-ol--cuadro.lista-ol--separador
+          li 
+            .lista-ol--cuadro__vineta
+              span a
+            | Realmacenar la carga.
+          li 
+            .lista-ol--cuadro__vineta
+              span a
+            | Reprocesar el despacho de mercancías.
+          li 
+            .lista-ol--cuadro__vineta
+              span a
+            | Reenviar las peticiones.
+
+    p.mb-5  Lo anterior genera precios extras por entregas fallidas y una mala fama del servicio de entrega; por ello el objetivo es reducir el volumen de falla de servicio al comprador y aumentar la confianza del mismo a lo largo del despacho de mercancías.   
+
+
+
+
+    .row.mb-5.justify-content-center
+      .col-lg-8
+        .cajon.color-acento-contenido.p-4
+          p.mb-0  Una compañía que no hace seguimiento a sus transportistas a lo largo del despacho de mercancías desconoce cómo se desenvuelve el transporte, las rutas logísticas y los procesos de entrega. Por esta razón, las empresas tienen que minimizar al mínimo sus errores de logística, y para lograrlo necesitan adoptar tecnologías para la administración de entregas y despacho de mercancías, así se logra optimizar todos los procesos en la última milla.
 
 
     Separador
