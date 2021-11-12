@@ -111,7 +111,40 @@
 
     .row.mb-5.justify-content-center
       .col-lg-10
-        
+        PasosA.color-primario.mb-5(tipo="n")
+          .row
+            .col-md-9.mb-4.mb-md-0
+              h4 Preparación
+              ul.lista-ul
+                li
+                  i.fas.fa-check
+                  p.mb-0 Recolección de datos y entrega de documentos y órdenes clasificadas.
+                li
+                  i.fas.fa-check
+                  p.mb-0 Preparación de equipos requeridos.            
+            .col-md-3
+              figure
+                img(src='@/assets/curso/t3-ic1.svg', alt='Imagen decorativa')
+
+          .row
+            .col-md-3.mb-4.mb-md-0
+              figure
+                img(src='@/assets/curso/t3-ic2.svg', alt='Imagen decorativa')
+            .col-md-9
+              .h4 Recorrido
+              ul.lista-ul
+                li
+                  i.fas.fa-check
+                  p.mb-0 Desde la zona de operaciones hasta el punto donde se ubica el producto.
+                li
+                  i.fas.fa-check
+                  p.mb-0 Desde el punto de ubicación al siguiente y así sucesivamente.
+                li
+                  i.fas.fa-check
+                  p.mb-0 Regreso a la zona de operaciones., se utiliza el concepto de secuenciación para garantizar el tiempo óptimo para este proceso.
+
+
+
 
 
 
