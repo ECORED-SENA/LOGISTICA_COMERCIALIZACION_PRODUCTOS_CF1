@@ -32,7 +32,7 @@
     #t_3_1.titulo-segundo.color-secundario
       h2 3.1. Solicitud de pedidos y despacho
     p.mb-5  Crear una <i>Picking List</i> es la mejor forma de optimizar la preparación de pedidos. Las actividades manuales de preparación de pedidos en el centro de distribución son principalmente trabajos de clasificación y ordenación por destinos de acuerdo con la solicitud del cliente. Las actividades consisten en: levantar, mover, recoger, poner, embalaje y otros trabajos típicos. El proceso de <i>picking manual</i> para comparar las actividades físicas y actividades cognitivas, se trata de un paso que es fácil, sin embargo, requiere de atención y concentración; habilidades cognitivas incluidas.
-    .neg-margin-x.bg-curved.mb-5
+    .neg-margin-x.bg-curved.mb-0
       .row.justify-content-center
         .col-lg-7
           PasosA.color-secundario.mb-5(tipo="n")
@@ -50,6 +50,68 @@
         .col-lg-4
           figure
             img.nW(src='@/assets/curso/t3-i4.png' alt='imagen decorativa')
+
+    .neg-margin-x.bg-curved2.mb-5.py-0
+      .row.justify-content-center
+        .col-lg-7
+          ImagenInfografica.color-secundario.mb-5
+            template(v-slot:imagen)
+              figure
+                img(src='@/assets/curso/t3-info1.svg', alt='Despacho de mercancias')
+
+            .tarjeta.color-secundario.p-3.shadow-box(x="14%" y="27%" numero="1")
+              .h5.mb-2 Medios de transporte
+              ul.lista-ul
+                li
+                  i.fas.fa-check
+                  p.mb-0 Simbología de la carga
+                li
+                  i.fas.fa-check
+                  p.mb-0 Ficha técnica
+
+            .tarjeta.color-secundario.p-3.shadow-box(x="85.5%" y="27%" numero="2")
+              .h5.mb-2 Indicadores de gestión
+              ul.lista-ul
+                li
+                  i.fas.fa-check
+                  p.mb-0 Terminales de radiofrecuencia
+                li
+                  i.fas.fa-check
+                  p.mb-0 Código de barras
+                li
+                  i.fas.fa-check
+                  p.mb-0 Sistemas de voz    
+
+            .tarjeta.color-secundario.p-3.shadow-box(x="14%" y="63%" numero="3")
+              .h5.mb-2 Normativa de producto
+              ul.lista-ul
+                li
+                  i.fas.fa-check
+                  p.mb-0 Familia de producto
+                li
+                  i.fas.fa-check
+                  p.mb-0 Procedimiento
+            .tarjeta.color-secundario.p-3.shadow-box(x="85.5%" y="63%" numero="4")
+              .h5.mb-2 Procesos de recibo y despacho
+              ul.lista-ul
+                li
+                  i.fas.fa-check
+                  p.mb-0 <i>Picking</i>
+                li
+                  i.fas.fa-check
+                  p.mb-0 <i>Packing</i>
+    
+    .row.mb-5.justify-content-center
+      .col-lg-8
+        .cajon.color-acento-contenido.p-4
+          p.mb-0  Las actividades de desplazamiento y recogida continúan hasta que se acumulan todos los productos de la lista de pedidos. Aunque se realice el mismo pedido, el rendimiento del picking puede variar en función de las actividades de cognición del preparador; muchos errores de preparación de pedidos se producen al contar o identificar los artículos. 
+
+
+    p.mb-5.text-bold  Es necesario tener presente que el picking, involucra cuatro etapas; estas son:
+
+    .row.mb-5.justify-content-center
+      .col-lg-10
+        
 
 
 

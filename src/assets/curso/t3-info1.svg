@@ -170,5 +170,14 @@
         </g>
       </g>
     </g>
+    <g id="OBJECTS-2" data-name="OBJECTS" transform="translate(457.578 350.493) rotate(-90)">
+      <path id="Union_2" data-name="Union 2" d="M8553.946,10571.584h-54.29c6.051-10.4,5.966-18.5-.382-28.782h54.672v-7.146l21.537,21.536-21.537,21.537Z" transform="translate(-8452.673 -10534.016)" fill="#cfddfc"/>
+      <path id="Union_5" data-name="Union 5" d="M8553.946,10571.584h-54.29c6.051-10.4,5.966-18.5-.382-28.782h54.672v-7.146l21.537,21.536-21.537,21.537Z" transform="translate(4877.198 -12491.007) rotate(60)" fill="#cfddfc"/>
+      <path id="Union_6" data-name="Union 6" d="M21.538,35.929h54.29c-6.051-10.4-5.966-18.5.382-28.783H21.538V0L0,21.536,21.538,43.073Z" transform="matrix(-0.588, 0.809, -0.809, -0.588, 53.718, -142.428)" fill="#cfddfc"/>
+      <path id="Union_7" data-name="Union 7" d="M54.672,35.93H.382C6.433,25.527,6.348,17.433,0,7.146H54.672V0L76.21,21.537,54.672,43.074Z" transform="translate(-170.61 -124.26) rotate(-106)" fill="#cfddfc"/>
+      <path id="Union_8" data-name="Union 8" d="M21.538,35.929h54.29c-6.051-10.4-5.966-18.5.382-28.783H21.538V0L0,21.537,21.538,43.074Z" transform="translate(-191.617 245.868) rotate(-74)" fill="#cfddfc"/>
+      <path id="Union_3" data-name="Union 3" d="M8553.946,10571.584h-54.29c6.051-10.4,5.966-18.5-.382-28.782h54.672v-7.146l21.537,21.536-21.537,21.537Z" transform="translate(11699.027 6493.303) rotate(157)" fill="#cfddfc"/>
+      <path id="Union_4" data-name="Union 4" d="M21.537,35.929H75.828c-6.051-10.4-5.966-18.5.382-28.782H21.537V0L0,21.536,21.537,43.073Z" transform="matrix(0.921, 0.391, -0.391, 0.921, -311.356, -92.536)" fill="#cfddfc"/>
+    </g>
   </g>
 </svg>
