@@ -236,6 +236,15 @@
     br
     #t_3_2.titulo-segundo.color-secundario
       h2 3.2. Sellos de seguridad  
+    
+    .row.mb-5.align-items-center.justify-content-center
+      .col-lg-8.slideInLeft
+        .cajon-b.color-primario.p-4.mb-4
+          p.mb-0.text-bold  Los sellos de seguridad para transporte son una pieza de alta tecnología indispensable para el negocio mundial. Dichos sellos son una pieza desarrollada de metal y plástico diseñado para cerrar el ingreso de un contenedor con productos o bienes; a diferencia de, ejemplificando, un candado, un sello de seguridad podría ser roto y no solamente podría ser roto, sino que se necesita que se abra para consumar su funcionalidad. En otras palabras, el sello únicamente sugiere en qué momento debería ser abierto por una persona autorizada. Por esa razón los sellos fueron creados con el fin de dejar prueba de todo intento de apertura no autorizado.       
+        p.mb-3  Esta característica de los sellos para transporte se complementa con su foliado impreso. Los sellos de estabilidad reciben un folio impreso en láser o hot-stamping. Este folio en números continuos y códigos de barras es primordial. Al poner sellos continuos en contenedores de productos, cajas de tráileres y otros recipientes de productos, se garantiza un orden logístico de empaquetado, de esta forma la compañía de transporte puede estar segura de que los objetos que guardó permanecen incólumes al abrir el sello. Al conservar un orden numérico, se garantiza que ningún contenedor falta; esto no únicamente incrementa la estabilidad, sino que ayuda a tener un óptimo orden de transporte.
+      .col-lg-4
+        figure
+          img.nW.centered(src='@/assets/curso/t3-i7.png' alt='imagen decorativa')
 
 
 
