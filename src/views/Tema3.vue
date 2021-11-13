@@ -246,8 +246,33 @@
         figure
           img.nW.centered(src='@/assets/curso/t3-i7.png' alt='imagen decorativa')
 
-
-
+    p.mb-5  Entre los principales sellos de seguridad se encuentran:
+    .row.mb-5
+      .col-md-6.col-lg-4.tarjeta--tabla.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/t3-c1.png' alt='AvatarTop')
+        .h2.text-center Alta seguridad
+      .col-md-6.col-lg-4.tarjeta--tabla.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/t3-c2.png' alt='AvatarTop')
+        .h2.text-center Sellos de plástico
+      .col-md-6.col-lg-4.tarjeta--tabla.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/t3-c3.png' alt='AvatarTop')
+        .h2.text-center Sellos metálicos
+      .col-md-6.col-lg-4.tarjeta--tabla.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/t3-c4.png' alt='AvatarTop')
+        .h2.text-center Sellos de cable
+      .col-md-6.col-lg-4.tarjeta--tabla.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/t3-c5.png' alt='AvatarTop')
+        .h2.text-center Etiqueta de seguridad 
 
 </template>
 
