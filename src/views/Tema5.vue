@@ -98,8 +98,8 @@
     br
     #t_5_2.titulo-segundo.color-secundario
       h2 5.2. Tipos de almacenamiento   
-    p.mb-3  Los tipos de almacenamiento que pertenecen a una compañía son de una pluralidad casi infinita, dado los diseños personalizados que siguen las necesidades especializadas. Por lo opuesto, un centro de repartición sirve para saciar el extenso rango de necesidades de las compañías. Por ello, una vez que se comparan con almacenamiento especializado son más estandarizados en la configuración del espacio y en la utilización del equipo para múltiples fines. 
-    p.mb-5  Los almacenes de los centros de distribución tienen la posibilidad de clasificarse en un número reducido de equipos.
+    p.mb-3(data-aos='slide-up')  Los tipos de almacenamiento que pertenecen a una compañía son de una pluralidad casi infinita, dado los diseños personalizados que siguen las necesidades especializadas. Por lo opuesto, un centro de repartición sirve para saciar el extenso rango de necesidades de las compañías. Por ello, una vez que se comparan con almacenamiento especializado son más estandarizados en la configuración del espacio y en la utilización del equipo para múltiples fines. 
+    p.mb-5(data-aos='slide-up')  Los almacenes de los centros de distribución tienen la posibilidad de clasificarse en un número reducido de equipos.
 
     .row.mb-5.justify-content-center
       .col-sm-6.col-xl-4.mb-4.mb-xl-0
