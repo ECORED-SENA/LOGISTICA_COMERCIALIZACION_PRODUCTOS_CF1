@@ -30,9 +30,9 @@
 
     p.mb-5  A continuación, se podrán conocer las herramientas para manipulación de carga:
 
-    .neg-margin-x.tarjeta--lila.py-0
+    .neg-margin-x.bg-sliders.py-0
       .tarjeta.p-4.mb-5.r-0
-        SlyderA(tipo="b")
+        SlyderA(tipo="a")
           .row.align-items-center
             .col-md-8.mb-4.mb-md-0
               .h4 Grúas
@@ -98,6 +98,63 @@
     br
     #t_5_2.titulo-segundo.color-secundario
       h2 5.2. Tipos de almacenamiento   
+    p.mb-3  Los tipos de almacenamiento que pertenecen a una compañía son de una pluralidad casi infinita, dado los diseños personalizados que siguen las necesidades especializadas. Por lo opuesto, un centro de repartición sirve para saciar el extenso rango de necesidades de las compañías. Por ello, una vez que se comparan con almacenamiento especializado son más estandarizados en la configuración del espacio y en la utilización del equipo para múltiples fines. 
+    p.mb-5  Los almacenes de los centros de distribución tienen la posibilidad de clasificarse en un número reducido de equipos.
+
+    .row.mb-5.justify-content-center
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/t5-cf1.png')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5.text-center
+              br
+              .h3 Almacenes de productos o mercancías
+              p.mb-4 Dichos almacenes limitan sus servicios a guardar y manejar ciertas mercancías, como madera, algodón, tabaco, grano y otros productos que se deterioran de forma sencilla.
+              br
+
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/t5-cf2.png')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5.text-center
+              br
+              .h3 Almacenes de volúmenes gigantes
+              p.mb-4 Ciertos almacenes ofrecen guardar y manejar productos de gran volumen z(a granel), como productos químicos líquidos, aceite, sales para autopistas y almíbares. Además, mezclan productos y separan embarques consolidados como parte de su servicio.
+              br
+
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/t5-cf3.png')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5.text-center
+              br
+              .h3 Almacenes de temperatura controlada
+              p.mb-0 Hay almacenes que controlan el ambiente del almacenamiento, así, tanto la temperatura como la humedad tienen la posibilidad de regularse. Los bienes perecederos, como frutas, vegetales y comidas congeladas, así como ciertos productos químicos y medicamentos, necesitan de esta clase de almacenamiento.
+      .clearfix.mb-3
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/t5-cf4.png')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5.text-center
+              br
+              .h3 Almacenes de bienes domésticos
+              p.mb-0 Guardar y manejar artículos y menaje del hogar son la especialidad de estos almacenes. Aun cuando los productores de muebles tienen la posibilidad de utilizar dichos almacenes, los usuarios primordiales son las compañías de mudanzas de bienes.
+              br
+
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/t5-cf5.png')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5.text-center
+              br
+              .h3 Almacenes de mercancía general
+              p.mb-0 Dichos almacenes, el tipo más común, manejan un extenso rango de mercancías. Comúnmente, la mercancía no necesita las instalaciones especiales de los casos anteriores.
+              br
 
 
 
@@ -108,7 +165,9 @@
 export default {
   name: 'Tema5',
   data: () => ({
-    // variables de vue
+    mostrarIndicador: true,
+    indicadorImagenZoom: true,
+    indicadorTarjetaFlip: true,
   }),
   mounted() {
     this.$nextTick(() => {
