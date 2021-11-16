@@ -19,30 +19,52 @@
     
 
     p.mb-5  La tendencia mundial en logística como en otras zonas muestra hacia la automatización de los procesos, el picking no es la exclusión. En esta línea, se resaltan tres tecnologías en especial: 
-    .row.mb-5.justify-content-center
-      .col-md-3.col-xl-3.mb-4.mb-xl-0
-        .tarjeta-numerada.color-secundario.p-5.h-100
-          .tarjeta-numerada__numero
-            .h2 1
-          .h3.text-center Terminales de radiofrecuencia.
-      .col-md-3.col-xl-3.mb-4.mb-xl-0
-        .tarjeta-numerada.color-acento-contenido.p-5
-          .tarjeta-numerada__numero
-            .h2 2
-          .h3.text-center Sistemas de reconocimiento de voz.
+    .neg-margin-x.bg-curved.mb-4
+      .row.mb-5.justify-content-center
+        .col-md-3.col-xl-3.mb-4.mb-xl-0
+          .tarjeta-numerada.color-secundario.p-5.h-100(data-aos='flip-left')
+            .tarjeta-numerada__numero
+              .h2 1
+            .h3.text-center Terminales de radiofrecuencia.
+        .col-md-3.col-xl-3.mb-4.mb-xl-0(data-aos='flip-left')
+          .tarjeta-numerada.color-acento-contenido.p-5
+            .tarjeta-numerada__numero
+              .h2 2
+            .h3.text-center Sistemas de reconocimiento de voz.
 
-      .col-md-3.col-xl-3.mb-4.mb-xl-0
-        .tarjeta-numerada.color-primario.p-5
-          .tarjeta-numerada__numero
-            .h2 3
-          .h3.text-center Lectores manuales código de barras.
+        .col-md-3.col-xl-3.mb-4.mb-xl-0(data-aos='flip-left')
+          .tarjeta-numerada.color-primario.p-5
+            .tarjeta-numerada__numero
+              .h2 3
+            .h3.text-center Lectores manuales código de barras.
 
     p.mb-5  Todas ellas tienen sus ventajas y sus desventajas; y cada una constituye la solución correcta para un definido caso y entorno operacional, sin perjuicio de que logren aplicarse.
-    p.mb-5  Por otro lado, las evidentes diferencias y diversas propiedades de cada tecnología, involucran que, anterior a ser implementadas, se deba realizar una evaluación de ciertos componentes, como, por ejemplo: la productividad de Picking en superficies de alta densidad; independencia en la utilización de las manos a causa de los operadores, capacidad para hallar las posiciones, la función de proporcionar información o el decrecimiento de los errores de “pickeo”. Es frente a estos y otros límites que las tecnologías empiezan a marcar sus diferencias y utilidades concretas.
-    
+    p.mb-5  Por otro lado, las evidentes diferencias y diversas propiedades de cada tecnología, involucran que, anterior a ser implementadas, se deba realizar una evaluación de ciertos componentes, como, por ejemplo: la productividad de <i>Picking</i> en superficies de alta densidad; independencia en la utilización de las manos a causa de los operadores, capacidad para hallar las posiciones, la función de proporcionar información o el decrecimiento de los errores de “pickeo”. Es frente a estos y otros límites que las tecnologías empiezan a marcar sus diferencias y utilidades concretas.
 
+    .row.mb-5.justify-content-center
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta.color-acento-contenido.p-4.h-100
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/t7-ic1.svg', alt='imagen decorativa')
+          h3.text-center Código de barras
 
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta.color-secundario.p-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/t7-ic2.svg', alt='imagen decorativa')
+          h3.text-center Terminales radiofrecuencia
 
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta.color-primario.p-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/t7-ic3.svg', alt='imagen decorativa')
+          h3.text-center Sistema de reconocimiento de voz
 
 
 
