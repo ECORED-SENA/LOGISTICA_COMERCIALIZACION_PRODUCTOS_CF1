@@ -209,15 +209,18 @@
         ol.lista-ol--cuadro.lista-ol--separador
           li 
             .lista-ol--cuadro__vineta
-              span a
+              span
+                i.fas.fa-chevron-right
             | Realmacenar la carga.
           li 
             .lista-ol--cuadro__vineta
-              span a
+              span
+                i.fas.fa-chevron-right
             | Reprocesar el despacho de mercancías.
           li 
             .lista-ol--cuadro__vineta
-              span a
+              span
+                i.fas.fa-chevron-right
             | Reenviar las peticiones.
 
     p.mb-5  Lo anterior genera precios extras por entregas fallidas y una mala fama del servicio de entrega; por ello el objetivo es reducir el volumen de falla de servicio al comprador y aumentar la confianza del mismo a lo largo del despacho de mercancías.   
