@@ -29,7 +29,20 @@
 
     .row.mb-5.justify-content-center
       .col-lg-10
-        //-- Auqui viene el bloque para descarga
+        .tarjeta.color-gradient.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-2
+              img.nW.centered(src="@/assets/curso/t6-ic1.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.mb-1 Decreto 1079 de 2015 - Ministerio de transporte. Decreto Único Reglamentario del Sector Transporte.
+                  p.text-small Se invita a consultar el Decreto 1079 de 2015 expedido por el Ministerio de Transporte, en donde se establece como único y reglamentario del sector transporte.
+                .col-sm-auto
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
+
 
     p.mb-5  Un KPI, o un grupo de KPI (ya que un KPI raramente existe por sí solo), forma un tipo de lenguaje que puede ser utilizado, en el caso de que la estrategia de la empresa no sea la misma y no solo para medir la eficacia de los proyectos, sino también para indicar sus posibilidades de éxito. Un KPI es una característica fundamental y sin un acuerdo sobre su significado, se convertiría en una fuente de caos en lugar de ser una fuente de acción a seguir.
 

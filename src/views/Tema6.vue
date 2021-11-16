@@ -23,7 +23,7 @@
 
     .row.mb-5.justify-content-center
       .col-lg-10
-        .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5.customBC 
+        .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5.customBC(data-aos='flip-left')
           .row.m-0.align-items-center.justify-content-between
             .col-lg-4.mb-4.mb-lg-0
               figure
@@ -35,10 +35,10 @@
     p.mb-5  Para conocer toda la información sobre el sector de tránsito de mercancías es importante conocer el Decreto 1079 de 2015: 
     .row.mb-5.justify-content-center
       .col-lg-10
-        .tarjeta.color-gradient.p-3.mb-5
+        .tarjeta.color-gradient.p-3.mb-5(data-aos='flip-up')
           .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/t6-ic1.svg")
+            .col-3.col-sm-2.col-lg-2
+              img.nW.centered(src="@/assets/curso/t6-ic1.svg")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
