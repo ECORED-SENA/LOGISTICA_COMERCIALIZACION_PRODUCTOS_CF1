@@ -8,6 +8,14 @@
         span 5
       h1 Clasificación de mercancías
 
+    .row.mb-5.align-items-center.justify-content-center
+      .col-lg-8.slideInLeft
+        .cajon-b.color-primario.p-4.mb-4
+          p.mb-0  <b>En cualquier centro de distribución la fase de preparación de pedidos es una de las más relevantes.</b> En esta se asegura que el producto sea el conveniente y que su preparación y embalaje sean los adecuados para llegar en perfectas condiciones a su destino final. Por consiguiente, si la fase de preparación de demandas en pedidos no es eficiente, la productividad de la organización y la vivencia del comprador tienen la posibilidad de verse afectadas.        
+      .col-lg-4
+        figure
+          //--img.nW.centered(src='@/assets/curso/t5-i1.jpg' alt='imagen decorativa')
+
 
     
 
