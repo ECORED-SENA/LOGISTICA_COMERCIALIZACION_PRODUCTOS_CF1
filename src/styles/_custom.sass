@@ -386,6 +386,19 @@ i.fa-check
 
   100%
     transform: translatey(0px)
+
+@-webkit-keyframes spin
+  from
+    -webkit-transform: rotate(0deg)
+
+  to
+    -webkit-transform: rotate(359deg)
+@-webkit-keyframes spin2
+  from
+    -webkit-transform: rotate(0deg)
+
+  to
+    -webkit-transform: rotate(-359deg)
 @keyframes float2
   0%
     transform: translatey(0px)
@@ -402,25 +415,27 @@ i.fa-check
 .banner-principal__img:before
   content: ''
   position: absolute
-  width: 83px
-  height: 49px
+  width: 450px
+  height: 450px
   z-index: 5
-  right: 30rem
-  top: 10%
+  right: 8rem
+  top: 12%
   transform: translatey(0px)
-  animation: float 6s ease-in-out infinite
-  /*background-image: url('../assets/curso/ic-head1.png')*/
+  animation: spin 3s infinite linear
+  background-image: url('../assets/curso/circle1.svg')
+  background-size: cover
 .banner-principal__img:after
   content: ''
   position: absolute
-  width: 72px
-  height: 43px
+  width: 480px
+  height: 480px
   z-index: 3
-  right: 5rem
-  top: 25%
+  right: 7rem
+  top: 10%
   transform: translatey(0px)
-  animation: float2 8s ease-in-out infinite
-  /*background-image: url('../assets/curso/ic-head2.png')*/
+  animation: spin2 3s infinite linear
+  background-image: url('../assets/curso/circle2.svg')
+  background-size: cover
 .slideInLeft
   -webkit-animation-name: slideInLeft
   animation-name: slideInLeft
