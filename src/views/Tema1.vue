@@ -141,21 +141,46 @@
             img.nW(src='@/assets/curso/t1-a2.png', alt='icono decorativo')
 
       .row(titulo="Camión")
-        .col-md-8.mb-4.mb-md-0
-          p.mb-3  Medio sobre el que se sustenta el transporte de carretera es el camión, transporte compuesto por la unidad tractora y la caja que arrastra, llamada semirremolque. El camión podría ser duro, sin que se logren dividir ambos recursos y por lo que la carga reposa sobre el chasis o el articulado.
+        .col-md-12.mb-4.mb-md-0
+          p.mb-4  Medio sobre el que se sustenta el transporte de carretera es el camión, transporte compuesto por la unidad tractora y la caja que arrastra, llamada semirremolque. El camión podría ser duro, sin que se logren dividir ambos recursos y por lo que la carga reposa sobre el chasis o el articulado.
+          .h5 Tipos de camiones de carga en el transporte terrestre
           .row.mb-5
-            .col-md-6.col-lg-6.tarjeta--tabla.p-4
+            .col-md-4.col-lg-4.tarjeta--tabla.p-4
               .row.justify-content-center.mb-3
-                .col-4
-                  img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-              h2.text-center John Doe
-              p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-            
-          
-        .col-md-4
-          figure
-            img.nW(src='@/assets/curso/t1-a3.png', alt='icono decorativo')
+                .col-6
+                  img(src='@/assets/curso/t-a1.svg' alt='ejemplo de camion')
+              .h6.text-center Rabon (1 eje)
+            .col-md-4.col-lg-4.tarjeta--tabla.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src='@/assets/curso/t-a2.svg' alt='ejemplo de camion')
+              .h6.text-center Torton (2 ejes)
+            .col-md-4.col-lg-4.tarjeta--tabla.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src='@/assets/curso/tt.svg' alt='ejemplo de camion')
+              .h6.text-center Caja cerrada de 53 pies
+            .col-md-4.col-lg-4.tarjeta--tabla.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src='@/assets/curso/t-a5.svg' alt='ejemplo de camion')
+              .h6.text-center Full / doblesemiremolque
+            .col-md-4.col-lg-4.tarjeta--tabla.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src='@/assets/curso/t-a6.svg' alt='ejemplo de camion')
+              .h6.text-center Caja refrigerada
+            .col-md-4.col-lg-4.tarjeta--tabla.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src='@/assets/curso/t-a7.svg' alt='ejemplo de camion')
+              .h6.text-center Plataforma 45 pies
+            .col-md-4.col-lg-4.tarjeta--tabla.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src='@/assets/curso/t-a8.svg' alt='ejemplo de camion')
+              .h6.text-center Plataforma 45 pies              
+              
 
 
       .row(titulo="Tren")
