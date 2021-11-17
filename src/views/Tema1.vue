@@ -24,11 +24,28 @@
               figure
                 img(src='@/assets/curso/t1-im1.svg', alt='Despacho de mercancias')
 
-            .tarjeta.color-secundario.p-3.shadow-box(x="50%" y="0%" numero="")
+            .tarjeta.color-secundario.p-3.shadow-box(x="49%" y="18%" numero="")
               .h5.mb-2 Proceso:
               p.mb-0  Grupo de secuencia de actividades repetidas.
+            .tarjeta.color-secundario.p-3.shadow-box(x="78%" y="33%" numero="")
+              .h5.mb-2 Planeación:
+              p.mb-0  Requiere de estrategias.
+            .tarjeta.color-secundario.p-3.shadow-box(x="86%" y="65%" numero="")
+              .h5.mb-2 Instrumentación:
+              p.mb-0  Por ejecutarse después de la planeación.
+            .tarjeta.color-secundario.p-3.shadow-box(x="64%" y="90%" numero="")
+              .h5.mb-2 Control:
+              p.mb-0  Evaluar, supervisar, mejorar y retroalimentar.              
+            .tarjeta.color-secundario.p-3.shadow-box(x="33%" y="93%" numero="")
+              .h5.mb-2 Flujo y almacén:
+              p.mb-0  Distribución física.  
+            .tarjeta.color-secundario.p-3.shadow-box(x="13%" y="65%" numero="")
+              .h5.mb-2 Flujo informativo:
+              p.mb-0  Situación relativa de los transportadores.
+            .tarjeta.color-secundario.p-3.shadow-box(x="20%" y="33%" numero="")
+              .h5.mb-2 Cumple expectativas:
+              p.mb-0 Esquema que el cliente pide y exige. 
 
-    
     
     p.mb-5  En la logística se asocian varios recursos innovadores que mediante una combinación eficiente ofrecen al cliente un nivel elevado de calidad y confiabilidad buscando soluciones y de esta forma incrementan la competitividad y sostenimiento de la empresa. La experiencia y la competencia permiten encontrar soluciones acordes a cada necesidad. 
     .row.mb-5.justify-content-center
