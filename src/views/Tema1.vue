@@ -143,8 +143,15 @@
       .row(titulo="Camión")
         .col-md-8.mb-4.mb-md-0
           p.mb-3  Medio sobre el que se sustenta el transporte de carretera es el camión, transporte compuesto por la unidad tractora y la caja que arrastra, llamada semirremolque. El camión podría ser duro, sin que se logren dividir ambos recursos y por lo que la carga reposa sobre el chasis o el articulado.
-          p.mb-3  El remolque compuesto por una plataforma sin sistema de tracción propia, es arrastrado por una unidad tractora en la que se ensambla y reposa parcialmente, transfiriendo una sección mayoritaria de su masa y carga. No tiene eje delantero y puede contar con 1, 2 o 3 ejes traseros.
-          //-- Aqui viene la info de tipos de camiones
+          .row.mb-5
+            .col-md-6.col-lg-6.tarjeta--tabla.p-4
+              .row.justify-content-center.mb-3
+                .col-4
+                  img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+              h2.text-center John Doe
+              p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+
+            
           
         .col-md-4
           figure
