@@ -9,7 +9,7 @@
     .row.mb-5.slideInUp
       .col-lg-7
         .cajon-b.color-primario.p-3.mb-4
-          p.mb-0  A lo largo de años, la funcionalidad logística fue considerada como una actividad rutinaria, meramente operativa y elemental para hacer llegar los productos a partir de los centros de producción a los de uso o consumo. A partir de esta visión, la funcionalidad logística en la organización era contemplada solo como un centro generador de costes sin capacidad de diferenciación (Ballou, 2004). 
+          p.mb-0.text-bold  A lo largo de años, la funcionalidad logística fue considerada como una actividad rutinaria, meramente operativa y elemental para hacer llegar los productos a partir de los centros de producción a los de uso o consumo. A partir de esta visión, la funcionalidad logística en la organización era contemplada solo como un centro generador de costes sin capacidad de diferenciación (Ballou, 2004). 
         p.mb-3  En el campo académico, su análisis se realizaba a partir del punto de vista industrial o técnica, en busca de modelos que permitieran optimizar espacios, planear distribuciones y minimizar costes. La globalización de la economía y la consiguiente apertura de nuevos mercados distanciados geográficamente fueron cambiando la percepción de la funcionalidad logística hacia novedosas magnitudes, en las que la funcionalidad logística permitía ciertas ventajas competitivas fundamentadas en la reducción de los tiempos de entrega o en la mejora de costes.
         p.mb-3  Sin embargo, a pesar de estas ventajas, la funcionalidad logística seguía siendo una actividad menor en la administración empresarial. En la década de 1960 la administración logística, siguiendo los postulados de marketing, consigue una orientación hacia el comprador que se materializa en dar un servicio logístico ajustado a las necesidades y requisitos de este, y que posibilite su satisfacción. A partir de allí, la funcionalidad logística comienza a ser tratada como una actividad de carácter estratégico capaz de crear ventajas competitivas que diferencian a la organización de la competencia. A continuación, se relacionan aspectos importantes sobre el proceso de logística.
       .col-lg-5.slideInLeft
@@ -123,7 +123,7 @@
     #t_1_1.titulo-segundo.color-secundario
       h2 1.1. Medios de transporte
     p.mb-5  Cada tipo de mercancía debe acomodarse a una clase de transporte que sea compatible con su naturaleza, medidas físicas o sus características y las precauciones para su movilización. El concepto medio de transporte comprende el conjunto de técnicas de transporte y dispositivos que se usan en el traslado de productos o mercancías de un lugar a otro, incluida la manera a pie. Los medios de transportes usados para la distribución de productos son el avión, el camión, el tren y el buque. A continuación, se conocerán algunos medios:
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--lila")
       .row(titulo="Avión")
         .col-md-8.mb-4.mb-md-0
           p Medio de transporte capaz de moverse de forma autónoma en el espacio aéreo, con capacidad para el transporte de individuos, carga de mercancías y correo. Los aviones según su uso se ordenan en cargueros, de pasajeros y mixtos; y conforme con la soberanía de vuelo, en corta, media y extensa o larga. Por el número y tipo de su sistema de propulsión, pueden ser de hélice, con motor de pistón; de actitud, impulsados por la salida de gases a chorro; y de turbopropulsión, con motor de reacción provisto de una turbina de gas.
@@ -178,8 +178,48 @@
             .col-md-4.col-lg-4.tarjeta--tabla.p-4
               .row.justify-content-center.mb-3
                 .col-6
-                  img(src='@/assets/curso/t-a8.svg' alt='ejemplo de camion')
-              .h6.text-center Plataforma 45 pies              
+                  img(src='@/assets/curso/t-a8.png' alt='ejemplo de camion')
+              .h6.text-center Autotanque / pipa
+
+            .col-md-4.col-lg-4.tarjeta--tabla.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src='@/assets/curso/t-a9.png' alt='ejemplo de camion')
+              .h6.text-center Jaula a granel / granelera
+
+            .col-md-4.col-lg-4.tarjeta--tabla.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src='@/assets/curso/t-a10.png' alt='ejemplo de camion')
+              .h6.text-center Autotanque para asfalto / granel
+
+            .col-md-4.col-lg-4.tarjeta--tabla.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src='@/assets/curso/t1-a11.png' alt='ejemplo de camion')
+              .h6.text-center Low boy / Cama Baja
+
+            .col-md-4.col-lg-4.tarjeta--tabla.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src='@/assets/curso/t-12.png' alt='ejemplo de camion')
+              .h6.text-center Jaula Ganadera
+              
+            .col-md-4.col-lg-4.tarjeta--tabla.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src='@/assets/curso/t-a13.png' alt='ejemplo de camion')
+              .h6.text-center Jaula enlonada / cortina
+            .col-md-4.col-lg-4.tarjeta--tabla.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src='@/assets/curso/t-a14.png' alt='ejemplo de camion')
+              .h6.text-center Tolva
+            .col-md-4.col-lg-4.tarjeta--tabla.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src='@/assets/curso/t-a14.png' alt='ejemplo de camion')
+              .h6.text-center Madrina / porta Vehículos
               
 
 
