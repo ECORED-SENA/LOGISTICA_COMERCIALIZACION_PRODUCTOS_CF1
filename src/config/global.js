@@ -73,7 +73,8 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Indicadores de logística - KPI (Key Performance Indicators)',
+        titulo:
+          'Indicadores de logística - KPI (<i>Key Performance Indicators</i>)',
         desarrolloContenidos: true,
       },
       {
