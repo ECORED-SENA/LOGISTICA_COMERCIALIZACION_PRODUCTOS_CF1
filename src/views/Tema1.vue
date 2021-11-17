@@ -24,9 +24,10 @@
               figure
                 img(src='@/assets/curso/t1-im1.svg', alt='Despacho de mercancias')
 
-            .tarjeta.color-secundario.p-3.shadow-box(x="14%" y="27%" numero="1")
-              .h5.mb-2 Medios de transporte
-                ul.lista-ul
+            .tarjeta.color-secundario.p-3.shadow-box(x="50%" y="0%" numero="")
+              .h5.mb-2 Proceso:
+              p.mb-0  Grupo de secuencia de actividades repetidas.
+
     
     
     p.mb-5  En la logística se asocian varios recursos innovadores que mediante una combinación eficiente ofrecen al cliente un nivel elevado de calidad y confiabilidad buscando soluciones y de esta forma incrementan la competitividad y sostenimiento de la empresa. La experiencia y la competencia permiten encontrar soluciones acordes a cada necesidad. 
