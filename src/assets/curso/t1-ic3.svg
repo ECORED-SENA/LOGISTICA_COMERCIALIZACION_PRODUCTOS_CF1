@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="81" height="81" viewBox="0 0 81 81">
+  <g id="t1-ic3" transform="translate(-377 -8118.912)">
+    <path id="Rectangle_34495" data-name="Rectangle 34495" d="M1,1V80H80V1H1M0,0H81V81H0Z" transform="translate(377 8118.912)"/>
+    <g id="Group_102724" data-name="Group 102724" transform="translate(-201.471 6679.958)">
+      <rect id="Rectangle_34516" data-name="Rectangle 34516" width="26.594" height="26.594" transform="translate(606.614 1465.833)"/>
+      <rect id="Rectangle_34517" data-name="Rectangle 34517" width="1.512" height="26.594" transform="translate(635.203 1465.615)"/>
+      <rect id="Rectangle_34518" data-name="Rectangle 34518" width="1.512" height="26.594" transform="translate(601.762 1465.615)"/>
+      <path id="Path_159170" data-name="Path 159170" d="M638.047,1473.8h-4.7v-3.025L627.125,1477l6.218,5.671v-3.487h4.7Z" transform="translate(14.296 3.407)"/>
+      <path id="Path_159171" data-name="Path 159171" d="M586.471,1473.8h4.7v-3.025l6.218,6.218-6.218,5.671v-3.487h-4.7Z" transform="translate(0 3.407)"/>
+      <rect id="Rectangle_34519" data-name="Rectangle 34519" width="2.272" height="49.41" rx="0.841" transform="matrix(-0.697, 0.717, -0.717, -0.697, 638.412, 1495.542)"/>
+      <path id="Rectangle_34519_-_Outline" data-name="Rectangle 34519 - Outline" d="M.841.25A.591.591,0,0,0,.25.841V48.57a.591.591,0,0,0,.591.591h.591a.591.591,0,0,0,.591-.591V.841A.591.591,0,0,0,1.432.25H.841m0-.25h.591a.841.841,0,0,1,.841.841V48.57a.841.841,0,0,1-.841.841H.841A.841.841,0,0,1,0,48.57V.841A.841.841,0,0,1,.841,0Z" transform="matrix(-0.697, 0.717, -0.717, -0.697, 638.412, 1495.542)" fill="#f6f6f6"/>
+      <rect id="Rectangle_34520" data-name="Rectangle 34520" width="2.272" height="49.41" rx="0.841" transform="translate(636.898 1461.156) rotate(46.017)"/>
+      <path id="Rectangle_34520_-_Outline" data-name="Rectangle 34520 - Outline" d="M.841.25A.591.591,0,0,0,.25.841V48.57a.591.591,0,0,0,.591.591h.591a.591.591,0,0,0,.591-.591V.841A.591.591,0,0,0,1.432.25H.841m0-.25h.591a.841.841,0,0,1,.841.841V48.57a.841.841,0,0,1-.841.841H.841A.841.841,0,0,1,0,48.57V.841A.841.841,0,0,1,.841,0Z" transform="translate(636.898 1461.156) rotate(46.017)" fill="#f6f6f6"/>
+    </g>
+  </g>
+</svg>

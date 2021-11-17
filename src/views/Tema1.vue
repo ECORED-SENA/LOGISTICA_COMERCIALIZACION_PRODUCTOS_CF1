@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.bg-foot
     .titulo-principal.color-acento-contenido(data-aos='flip-up')
       .titulo-principal__numero
         span 1
@@ -106,9 +106,9 @@
       h2 1.1. Medios de transporte
     p.mb-5  Cada tipo de mercancía debe acomodarse a una clase de transporte que sea compatible con su naturaleza, medidas físicas o sus características y las precauciones para su movilización. El concepto medio de transporte comprende el conjunto de técnicas de transporte y dispositivos que se usan en el traslado de productos o mercancías de un lugar a otro, incluida la manera a pie. Los medios de transportes usados para la distribución de productos son el avión, el camión, el tren y el buque. A continuación, se conocerán algunos medios:
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-      .row(titulo="Ciclo del pedido")
+      .row(titulo="Avión")
         .col-md-8.mb-4.mb-md-0
-          p Puede definirse como el tiempo transcurrido entre el instante en que se levanta un pedido de comprador, una orden de compra o una solicitud de servicio y el instante en que el producto o servicio es recibido por el comprador. 
+          p Medio de transporte capaz de moverse de forma autónoma en el espacio aéreo, con capacidad para el transporte de individuos, carga de mercancías y correo. Los aviones según su uso se ordenan en cargueros, de pasajeros y mixtos; y conforme con la soberanía de vuelo, en corta, media y extensa o larga. Por el número y tipo de su sistema de propulsión, pueden ser de hélice, con motor de pistón; de actitud, impulsados por la salida de gases a chorro; y de turbopropulsión, con motor de reacción provisto de una turbina de gas.
         .col-md-4
           figure
             img.nW(src='@/assets/curso/t1-a1.png', alt='icono decorativo')
@@ -140,10 +140,78 @@
           
         .col-md-4
           figure
-            img.nW(src='@/assets/curso/t1-a2.png', alt='icono decorativo')
+            img.nW(src='@/assets/curso/t1-a4.png', alt='icono decorativo')
 
+      .row(titulo="Buque")
+        .col-md-8.mb-4.mb-md-0
+          p.mb-3  El modo marítimo usa el buque como medio de transporte en el segmento primordial de su cadena de transporte. El pacto Marpol 73/78 lo define como toda clase de embarcación que opere en el medio marino, incluido los aliscafos, los aerodeslizadores, los sumergibles, las herramientas flotantes y las plataformas fijas o flotantes.
+          p.mb-3  Los buques han alcanzado un grado de especialización que pueden adaptarse a las diferentes características de las cargas que haya que transportar. En el mercado marítimo internacional existen buques mercantes acondicionados para transportar todo tipo de mercancías, atendiendo a su naturaleza, el volumen de la carga, la distancia entre puerto de origen y el de destino.
+          
+        .col-md-4
+          figure
+            img.nW(src='@/assets/curso/t1-a5.png', alt='icono decorativo')
 
+      .row(titulo="Buque carga general o buque multipropósito")
+        .col-md-8.mb-4.mb-md-0
+          p.mb-3  Buque habitualmente provisto de 2 cubiertas que, al igual que sus bodegas,  fueron adaptadas para la carga de contenedores. Pueden disponer de sistemas ro-ro, refrigeración, tanques y grúas para carga pesada. Los buques multipropósito pueden desplazar: gráneles líquidos y secos, carga sobre automóviles, enormes piezas, palés, contenedores, carga general y carga perecedera.
+          
+        .col-md-4
+          figure
+            img.nW(src='@/assets/curso/t1-a6.png', alt='icono decorativo')
 
+      .row(titulo="Buque granelero")
+        .col-md-8.mb-4.mb-md-0
+          p.mb-3  Buque construido con una única cubierta, con tanques en la parte superior y tanques laterales de tolva en los espacios de carga, para el transporte de gráneles firmes y líquidos. La parte  de sus bodegas tiene forma de pirámide para aprovechar mejor el espacio. Regularmente permanecen dotados con grúas. Ciertos buques pueden atender alternativamente el transporte de líquidos o firmes, como los denominados «obo».
+          
+        .col-md-4
+          figure
+            img.nW(src='@/assets/curso/t1-a7.png', alt='icono decorativo')
+            
+      .row(titulo="Buque de carga horizontal")
+        .col-md-8.mb-4.mb-md-0
+          p.mb-3  Buque elaborado para el transporte de mercancías sobre medios rodantes utilizados en el transporte terrestre, como plataformas, remolques o semirremolques, camiones, vagones, etc., que se ponen a bordo por sus propios medios o mediante carretillas elevadoras o grúas.
+          
+        .col-md-4
+          figure
+            img.nW(src='@/assets/curso/t1-a8.png', alt='icono decorativo')
+
+    p.mb-5  Los medios de transporte tienen diversas características que deben ser tenidas en cuenta para garantizar que las mercancías lleguen a su destino teniendo en cuenta sus necesidades, por ejemplo:            
+    .row.mb-5.justify-content-center
+      .col-lg-4
+        figure
+          img.nW(src='@/assets/curso/t1-mn1.jpg', alt='icono decorativo')
+      .col-lg-6
+        .tarjeta-avatar-b.mb-2.align-items-center
+          .tarjeta-avatar-b__img
+            img.nW(src='@/assets/curso/t1-t1.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4
+              .h3 La dimensión de la carga.
+
+        .tarjeta-avatar-b.mb-2.align-items-center
+          .tarjeta-avatar-b__img
+            img.nW(src='@/assets/curso/t1-t2.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4
+              .h3 La fuerza motriz del vehículo.
+        .tarjeta-avatar-b.mb-2.align-items-center
+          .tarjeta-avatar-b__img
+            img.nW(src='@/assets/curso/t1-t3.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4
+              .h3 La capacidad y protección de la carga.
+        .tarjeta-avatar-b.mb-2.align-items-center
+          .tarjeta-avatar-b__img
+            img.nW(src='@/assets/curso/t1-t4.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4
+              .h3 El bienestar y comodidad de la tripulación.
+        .tarjeta-avatar-b.mb-2.align-items-center
+          .tarjeta-avatar-b__img
+            img.nW(src='@/assets/curso/t1-t5.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-4
+              .h3 La seguridad de las mercancías que transporta.
 
 
     Separador
@@ -152,19 +220,154 @@
     #t_1_2.titulo-segundo.color-secundario
       h2 1.2. Simbología de manejo de carga
 
+    p.mb-5  Para hacer un adecuado transporte de mercancías, se necesita marcar correctamente el embalaje, ya que esta marcación dejará defender, trasladar, guardar y manipular apropiadamente una gigantesca proporción de empaques y embalajes.
+    p.mb-5  Para el transporte de mercancía se conocen tres tipos de marcas:
 
+    .tarjeta.tarjeta--azul.mb-5.p-4
+      .row.mb-5.justify-content-center
+        .col-lg-4
+          ImagenInfografica.color-secundario
+            template(v-slot:imagen)
+              figure
+                img(src='@/assets/curso/t1-box.svg', alt='Despacho de mercancias')
 
+            .tarjeta.color-secundario.p-3.shadow-box(x="8%" y="45%" numero="1")
+              .h5.mb-2 Marcas estándar o de expedición
+              p.mb-0  Contienen datos acerca del importador, destino, dirección, número de referencia, número de unidades, etcétera.
+            .tarjeta.color-secundario.p-3.shadow-box(x="40%" y="87%" numero="2")
+              .h5.mb-2 Marcas de manipulación
+              p.mb-0  Indican el funcionamiento y advertencias en el momento de manipular o desplazar la carga, en este caso se aplican símbolos pictóricos internacionalmente aceptados.
+              
+            .tarjeta.color-secundario.p-3.shadow-box(x="88%" y="80%" numero="3")
+              .h5.mb-2 Marcas informativas
+              p.mb-0  Señalan información adicional que nace en el empaque o embalaje como: territorio de origen, puerto de salida, puerto de ingreso, peso bruto, peso neto, dimensiones de las cajas, entre otros.
+              
 
+    p.mb-5 Del mismo modo, estos embalajes deben pasar acompañados de unos símbolos en particular para el marcado de carga a desplazar. Y su trascendencia radica en que así se resuelven los problemas de diferencias de idiomas o analfabetismo de estibadores y consignatarios. Además, hay normas de manipulación que deben estar escritas en las lenguas comúnmente usadas en el comercio mundial o en la lengua de la región de destino.
+    
+    .cajon.color-acento-contenido.p-5.mb-5
+      .row
+        .col-lg-5
+          p La organización ISO ha desarrollado un lenguaje sencillo por medio de imágenes representadas en íconos que logran informar sobre el manejo, manipulación y gestión de las mercancías. Estas imágenes se definen como una instrucción rigurosa y determinante en el procedimiento de la carga en cada una de las latitudes de todo el planeta. Al final, ya que la mayor parte de posibles daños e incidencias sufridas en el embalaje a lo largo de su tiempo de repartición acostumbran a darse a lo largo de su manipulación y más justamente a lo largo del proceso de carga y descarga, es fundamental conocer su sentido y, a la vez, los recursos del embalaje.
+        .col-lg-7
+          figure
+            img.nW.centered(src='@/assets/curso/t1-nn1.png', alt='icono decorativo')          
 
+    p.mb-5 Para complementar el tema, es importante conocer la simbología de unidades de carga, los que se describen a continuación: 
 
+    .row.mb-5.justify-content-center
+      .col-lg-8
+        .tabla-c
+          table
+            thead
+              th Símbolo
+              th Instrucción
+              th.mw200 Significado
+            tbody
+              tr
+                td 
+                  figure
+                    img.nW.centered(src='@/assets/curso/t1-ic1.svg', alt='icono decorativo')    
+                td  No usar carretilla elevadora
+                td  La carga no se debe manipular con carretilla elevadora.
+              tr
+                td 
+                  figure
+                    img.nW.centered(src='@/assets/curso/t1-ic2.svg', alt='icono decorativo')    
+                td  Colocar mordazas aquí
+                td  Colocar las abrazaderas en los lados que se indica para manipular la carga.
+              tr
+                td 
+                  figure
+                    img.nW.centered(src='@/assets/curso/t1-ic3.svg', alt='icono decorativo')    
+                td  No colocar mordazas aquí
+                td  No colocar las abrazaderas en los lados que se indica al manipular el embalaje.
+              tr
+                td 
+                  figure
+                    img.nW.centered(src='@/assets/curso/t1-ic4.svg', alt='icono decorativo')    
+                td  Apilamiento limitado
+                td  Indica el peso máximo posible sobre la unidad de carga.
+              tr
+                td 
+                  figure
+                    img.nW.centered(src='@/assets/curso/t1-ic5.svg', alt='icono decorativo')    
+                td  Apilamiento limitado por número
+                td  Número máximo de embalajes iguales que se pueden apilar (n=número máx.).
+              tr
+                td 
+                  figure
+                    img.nW.centered(src='@/assets/curso/t1-ic6.svg', alt='icono decorativo')    
+                td  No apilar
+                td  No se debe apilar ninguna otra carga encima.
 
+              tr
+                td 
+                  figure
+                    img.nW.centered(src='@/assets/curso/t1-ic7.svg', alt='icono decorativo')    
+                td  Eslingas aquí
+                td  Indica dónde se deben emplazar las eslingas para elevar la carga
+                
+              tr
+                td 
+                  figure
+                    img.nW.centered(src='@/assets/curso/t1-ic8.svg', alt='icono decorativo')    
+                td  Límites de temperatura
+                td  Límites de temperatura entre los que se debe conservar y manipular la carga.
 
+              tr
+                td 
+                  figure
+                    img.nW.centered(src='@/assets/curso/t1-ic9.svg', alt='icono decorativo')    
+                td  Frágil
+                td  El contenido del embalaje es frágil y se debe manejar con precaución.
 
+              tr
+                td 
+                  figure
+                    img.nW.centered(src='@/assets/curso/t1-ic10.svg', alt='icono decorativo')    
+                td  No usar garfios
+                td  No se pueden usar garfios en el manejo de la carga.
+              tr
+                td 
+                  figure
+                    img.nW.centered(src='@/assets/curso/t1-ic11.svg', alt='icono decorativo')    
+                td  Mantener vertical
+                td  La unidad de carga se debe mantener en posición vertical.
+              tr
+                td 
+                  figure
+                    img.nW.centered(src='@/assets/curso/t1-ic12.svg', alt='icono decorativo')    
+                td  Proteger de la luz solar
+                td  La carga no debe exponerse a la luz solar u otras fuentes de calor.
 
+              tr
+                td 
+                  figure
+                    img.nW.centered(src='@/assets/curso/t1-ic13.svg', alt='icono decorativo')    
+                td  Mantener a resguardo de la lluvia
+                td  La carga debe mantenerse en un ambiente seco.
 
+              tr
+                td 
+                  figure
+                    img.nW.centered(src='@/assets/curso/t1-ic14.svg', alt='icono decorativo')    
+                td  Centro de gravedad
+                td  Indica el centro de gravedad de la unidad de carga.
 
+              tr
+                td 
+                  figure
+                    img.nW.centered(src='@/assets/curso/t1-ic15.svg', alt='icono decorativo')    
+                td  No rodar ni inclinar
+                td  La carga no se debe rodar ni inclinar o balancear.
 
-
+              tr
+                td 
+                  figure
+                    img.nW.centered(src='@/assets/curso/t1-ic16.svg', alt='icono decorativo')    
+                td  No manipular con las horquetas/horquillas en esta cara
+                td  Caras de la unidad de carga donde no se deben colocar las horquetas/horquillas de las carretilla manuales.
 
 
 
