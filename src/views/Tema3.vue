@@ -128,7 +128,7 @@
             .col-md-3.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/t3-ic2.svg', alt='Imagen decorativa')
-            .col-md-9
+            .col-md-9.text-left
               .h4 Recorrido
               ul.lista-ul
                 li
@@ -156,7 +156,7 @@
             .col-md-3.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/t3-ic4.svg', alt='Imagen decorativa')
-            .col-md-9
+            .col-md-9.text-left
               .h4 Verificación del pedido preparado
               ul.lista-ul
                 li
@@ -173,7 +173,7 @@
     .row.mb-5.justify-content-center
       .col-lg-8
         .cajon.color-acento-contenido.p-4
-          p.mb-0  <b>El segundo tiempo del recorrido denominado alistamiento o picking, es el más crítico.</b> Después sigue en orden de complejidad el de verificación, sin embargo, si se cuenta con la tecnología adecuada estos tiempos tienden a reducirse de manera significativa, optimizando el proceso.
+          p.mb-0  <b>El segundo tiempo del recorrido denominado alistamiento o <i>picking</i>, es el más crítico.</b> Después sigue en orden de complejidad el de verificación, sin embargo, si se cuenta con la tecnología adecuada estos tiempos tienden a reducirse de manera significativa, optimizando el proceso.
 
     p.mb-5  El despacho de mercancías es una fase de la logística cuyo propósito es que el producto salga de almacén y sea entregado a su destino final, a tiempo y en excelentes condiciones. En esta parte las principales tareas son: 
 
