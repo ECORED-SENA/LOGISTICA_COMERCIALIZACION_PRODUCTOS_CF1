@@ -11,7 +11,7 @@
         .cajon-b.color-primario.p-3.mb-4
           p.mb-0.text-bold  A lo largo de años, la funcionalidad logística fue considerada como una actividad rutinaria, meramente operativa y elemental para hacer llegar los productos a partir de los centros de producción a los de uso o consumo. A partir de esta visión, la funcionalidad logística en la organización era contemplada solo como un centro generador de costes sin capacidad de diferenciación (Ballou, 2004). 
         p.mb-3  En el campo académico, su análisis se realizaba a partir del punto de vista industrial o técnica, en busca de modelos que permitieran optimizar espacios, planear distribuciones y minimizar costes. La globalización de la economía y la consiguiente apertura de nuevos mercados distanciados geográficamente fueron cambiando la percepción de la funcionalidad logística hacia novedosas magnitudes, en las que la funcionalidad logística permitía ciertas ventajas competitivas fundamentadas en la reducción de los tiempos de entrega o en la mejora de costes.
-        p.mb-3  Sin embargo, a pesar de estas ventajas, la funcionalidad logística seguía siendo una actividad menor en la administración empresarial. En la década de 1960 la administración logística, siguiendo los postulados de marketing, consigue una orientación hacia el comprador que se materializa en dar un servicio logístico ajustado a las necesidades y requisitos de este, y que posibilite su satisfacción. A partir de allí, la funcionalidad logística comienza a ser tratada como una actividad de carácter estratégico capaz de crear ventajas competitivas que diferencian a la organización de la competencia. A continuación, se relacionan aspectos importantes sobre el proceso de logística.
+        p.mb-3  Sin embargo, a pesar de estas ventajas, la funcionalidad logística seguía siendo una actividad menor en la administración empresarial. En la década de 1960 la administración logística, siguiendo los postulados de <i>marketing</i>, consigue una orientación hacia el comprador que se materializa en dar un servicio logístico ajustado a las necesidades y requisitos de este, y que posibilite su satisfacción. A partir de allí, la funcionalidad logística comienza a ser tratada como una actividad de carácter estratégico capaz de crear ventajas competitivas que diferencian a la organización de la competencia. A continuación, se relacionan aspectos importantes sobre el proceso de logística.
       .col-lg-5.slideInLeft
         figure
           img(src='@/assets/curso/t1-i1.jpg' alt='')
@@ -99,7 +99,7 @@
             figure
               img(src='@/assets/curso/t1-p1.png', alt='icono decorativo')
         .h2.text-center Carga peligrosa
-        p Son los productos o sustancias que, al ser transportados, representan un riesgo para la salud, el medio ambiente, entre otros. Las mercancías peligrosas se la clasifican por el peligro que estas tienen, por la posibilidad de contaminar, su estructura y/o su nivel de peligrosidad. Para la diferenciación de estas mercancías, hay etiquetas en el transporte que identifican los peligros que estas pueden provocar. 
+        p Son los productos o sustancias que, al ser transportados, representan un riesgo para la salud, el medio ambiente, entre otros. Las mercancías peligrosas se clasifican por el peligro que estas tienen, por la posibilidad de contaminar, su estructura y/o su nivel de peligrosidad. Para la diferenciación de estas mercancías, hay etiquetas en el transporte que identifican los peligros que estas pueden provocar. 
 
 
       .col-md.tarjeta.color-acento-botones.p-5
@@ -109,7 +109,7 @@
               img(src='@/assets/curso/t1-p2.png', alt='icono decorativo')
           
         .h2.text-center Carga perecedera
-        p Son los productos que, expuestos a diversas temperaturas del medio ambiente, pueden deteriorarse después de un tiempo determinado; trátese de alimentos o productos sanitarios que deban seguir un control y unos parámetros técnicos dentro de la cadena de frío, etc. Dentro de los productos perecederos se encuentran las frutas y las verduras, la carne y sus derivados, los pescados y los mariscos, los productos lácteos y las flores, entre otros. Se destacan entre los   productos perecederos las verduras, frutas, carnes, pescados y lácteos entre otros.
+        p Son los productos que, expuestos a diversas temperaturas del medio ambiente, pueden deteriorarse después de un tiempo determinado; trátese de alimentos o productos sanitarios que deban seguir un control y unos parámetros técnicos dentro de la cadena de frío, etc. Dentro de los productos perecederos se encuentran las frutas y las verduras, la carne y sus derivados, los pescados y los mariscos, los productos lácteos y las flores, entre otros. Se destacan entre los   productos perecederos las verduras, frutas, carnes, pescados y lácteos, entre otros.
 
       .col-md.tarjeta.color-acento-contenido.p-5
         .row.justify-content-center.mb-4
@@ -121,7 +121,7 @@
 
 
     #t_1_1.titulo-segundo.color-secundario
-      h2 1.1. Medios de transporte
+      h2 1.1 Medios de transporte
     p.mb-5  Cada tipo de mercancía debe acomodarse a una clase de transporte que sea compatible con su naturaleza, medidas físicas o sus características y las precauciones para su movilización. El concepto medio de transporte comprende el conjunto de técnicas de transporte y dispositivos que se usan en el traslado de productos o mercancías de un lugar a otro, incluida la manera a pie. Los medios de transportes usados para la distribución de productos son el avión, el camión, el tren y el buque. A continuación, se conocerán algunos medios:
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--lila")
       .row(titulo="Avión")
@@ -134,92 +134,107 @@
       .row(titulo="Tipos de aviones")
         .col-md-8.mb-4.mb-md-0
           p El tipo de aeronave usado para transporte de carga es el 
-            span.text-bold-text-color avión carguero, 
-            | dedicado al transportar todo tipo de mercancías contenerizadas o carga general y correspondencia. <br>Otro tipo de aeronave es el avión cisterna, que es acondicionado para transporte de gráneles líquidos. A partir del año 1919 se efectuó el primer vuelo comercial con mercancías, y la demanda del uso de aeronaves para el transporte de carga no ha dejado de crecer. Esta demanda propició el uso de contenedores aéreos y la necesidad de compatibilizar el transporte de pasajeros con la carga aérea sin olvidar que hoy en día encontramos aviones exclusivos para la carga de mercancías. 
+            span.text-bold.text-color avión carguero, 
+            | dedicado a transportar todo tipo de mercancías contenerizadas o carga general y correspondencia. <br>Otro tipo de aeronave es el avión <b>cisterna</b>, que es acondicionado para transporte de graneles líquidos. A partir del año 1919 se efectuó el primer vuelo comercial con mercancías y la demanda del uso de aeronaves para el transporte de carga no ha dejado de crecer. Esta demanda propició el uso de contenedores aéreos y la necesidad de compatibilizar el transporte de pasajeros con la carga aérea sin olvidar que hoy en día encontramos aviones exclusivos para la carga de mercancías. 
         .col-md-4
           figure
             img.nW(src='@/assets/curso/t1-a2.png', alt='icono decorativo')
 
       .row(titulo="Camión")
         .col-md-12.mb-4.mb-md-0
-          p.mb-4  Medio sobre el que se sustenta el transporte de carretera es el camión, transporte compuesto por la unidad tractora y la caja que arrastra, llamada semirremolque. El camión podría ser duro, sin que se logren dividir ambos recursos y por lo que la carga reposa sobre el chasis o el articulado.
+          p.mb-3  El medio sobre el que se sustenta el transporte de carretera es el camión, transporte compuesto por la unidad tractora y la caja que arrastra, llamada semirremolque. El camión podría ser duro, sin que se logren dividir ambos recursos y por lo que la carga reposa sobre el chasís o el articulado.
+          p.mb-4  El remolque compuesto por una plataforma sin sistema de tracción propia, es arrastrado por una unidad tractora en la que se ensambla y reposa parcialmente, transfiriendo una sección mayoritaria de su masa y carga. No tiene eje delantero y puede contar con 1, 2 o 3 ejes traseros.
           .h5 Tipos de camiones de carga en el transporte terrestre
           .row.mb-5
             .col-md-4.col-lg-4.tarjeta--tabla.p-4
               .row.justify-content-center.mb-3
-                .col-6
-                  img(src='@/assets/curso/t-a1.svg' alt='ejemplo de camion')
+                .col-10
+                  .objBox
+                    img(src='@/assets/curso/t-a1.svg' alt='ejemplo de camion')
               .h6.text-center Rabon (1 eje)
             .col-md-4.col-lg-4.tarjeta--tabla.p-4
               .row.justify-content-center.mb-3
-                .col-6
-                  img(src='@/assets/curso/t-a2.svg' alt='ejemplo de camion')
+                .col-10
+                  .objBox
+                    img(src='@/assets/curso/t-a2.svg' alt='ejemplo de camion')
               .h6.text-center Torton (2 ejes)
             .col-md-4.col-lg-4.tarjeta--tabla.p-4
               .row.justify-content-center.mb-3
-                .col-6
-                  img(src='@/assets/curso/tt.svg' alt='ejemplo de camion')
+                .col-10
+                  .objBox
+                    img(src='@/assets/curso/tt.svg' alt='ejemplo de camion')
               .h6.text-center Caja cerrada de 53 pies
+            .col-md-8.col-lg-8.tarjeta--tabla.p-4
+              .row.justify-content-center.mb-3
+                .col-10
+                  .objBox
+                    img(src='@/assets/curso/t-a5.svg' alt='ejemplo de camion')
+              .h6.text-center Full / Doble semirremolque
             .col-md-4.col-lg-4.tarjeta--tabla.p-4
               .row.justify-content-center.mb-3
-                .col-6
-                  img(src='@/assets/curso/t-a5.svg' alt='ejemplo de camion')
-              .h6.text-center Full / doblesemiremolque
-            .col-md-4.col-lg-4.tarjeta--tabla.p-4
-              .row.justify-content-center.mb-3
-                .col-6
-                  img(src='@/assets/curso/t-a6.svg' alt='ejemplo de camion')
+                .col-10
+                  .objBox
+                    img(src='@/assets/curso/t-a6.svg' alt='ejemplo de camion')
               .h6.text-center Caja refrigerada
             .col-md-4.col-lg-4.tarjeta--tabla.p-4
               .row.justify-content-center.mb-3
-                .col-6
-                  img(src='@/assets/curso/t-a7.svg' alt='ejemplo de camion')
+                .col-10
+                  .objBox
+                    img(src='@/assets/curso/t-a7.svg' alt='ejemplo de camion')
               .h6.text-center Plataforma 45 pies
             .col-md-4.col-lg-4.tarjeta--tabla.p-4
               .row.justify-content-center.mb-3
-                .col-6
-                  img(src='@/assets/curso/t-a8.png' alt='ejemplo de camion')
-              .h6.text-center Autotanque / pipa
+                .col-10
+                  .objBox
+                    img(src='@/assets/curso/t-a8.png' alt='ejemplo de camion')
+              .h6.text-center Autotanque / Pipa
 
             .col-md-4.col-lg-4.tarjeta--tabla.p-4
               .row.justify-content-center.mb-3
-                .col-6
-                  img(src='@/assets/curso/t-a9.png' alt='ejemplo de camion')
-              .h6.text-center Jaula a granel / granelera
+                .col-10
+                  .objBox
+                    img(src='@/assets/curso/t-a9.png' alt='ejemplo de camion')
+              .h6.text-center Jaula a granel / Granelera
 
             .col-md-4.col-lg-4.tarjeta--tabla.p-4
               .row.justify-content-center.mb-3
-                .col-6
-                  img(src='@/assets/curso/t-a10.png' alt='ejemplo de camion')
-              .h6.text-center Autotanque para asfalto / granel
+                .col-10
+                  .objBox
+                    img(src='@/assets/curso/t-a10.png' alt='ejemplo de camion')
+              .h6.text-center Autotanque para asfalto / Granel
 
             .col-md-4.col-lg-4.tarjeta--tabla.p-4
               .row.justify-content-center.mb-3
-                .col-6
-                  img(src='@/assets/curso/t1-a11.png' alt='ejemplo de camion')
-              .h6.text-center Low boy / Cama Baja
+                .col-10
+                  .objBox
+                    img(src='@/assets/curso/t1-a11.png' alt='ejemplo de camion')
+              .h6.text-center <i>Low boy</i> / Cama baja
 
             .col-md-4.col-lg-4.tarjeta--tabla.p-4
               .row.justify-content-center.mb-3
-                .col-6
-                  img(src='@/assets/curso/t-12.png' alt='ejemplo de camion')
-              .h6.text-center Jaula Ganadera
+                .col-10
+                  .objBox
+                    img(src='@/assets/curso/t-12.png' alt='ejemplo de camion')
+              .h6.text-center Jaula ganadera
               
             .col-md-4.col-lg-4.tarjeta--tabla.p-4
               .row.justify-content-center.mb-3
-                .col-6
-                  img(src='@/assets/curso/t-a13.png' alt='ejemplo de camion')
-              .h6.text-center Jaula enlonada / cortina
+                .col-10
+                  .objBox
+                    img(src='@/assets/curso/t-a13.png' alt='ejemplo de camion')
+              .h6.text-center Jaula enlonada / Cortina
             .col-md-4.col-lg-4.tarjeta--tabla.p-4
               .row.justify-content-center.mb-3
-                .col-6
-                  img(src='@/assets/curso/t-a14.png' alt='ejemplo de camion')
+                .col-10
+                  .objBox
+                    img(src='@/assets/curso/t-a14.png' alt='ejemplo de camion')
               .h6.text-center Tolva
             .col-md-4.col-lg-4.tarjeta--tabla.p-4
               .row.justify-content-center.mb-3
-                .col-6
-                  img(src='@/assets/curso/t-a14.png' alt='ejemplo de camion')
-              .h6.text-center Madrina / porta Vehículos
+                .col-10
+                  .objBox
+                    img(src='@/assets/curso/t-a14.png' alt='ejemplo de camion')
+              .h6.text-center Madrina / Porta vehículos
               
 
 
@@ -243,7 +258,7 @@
 
       .row(titulo="Buque carga general o buque multipropósito")
         .col-md-8.mb-4.mb-md-0
-          p.mb-3  Buque habitualmente provisto de 2 cubiertas que, al igual que sus bodegas,  fueron adaptadas para la carga de contenedores. Pueden disponer de sistemas ro-ro, refrigeración, tanques y grúas para carga pesada. Los buques multipropósito pueden desplazar: gráneles líquidos y secos, carga sobre automóviles, enormes piezas, palés, contenedores, carga general y carga perecedera.
+          p.mb-3  Buque habitualmente provisto de 2 cubiertas que, al igual que sus bodegas,  fueron adaptadas para la carga de contenedores. Pueden disponer de sistemas ro-ro, refrigeración, tanques y grúas para carga pesada. Los buques multipropósito pueden desplazar: graneles líquidos y secos, carga sobre automóviles, enormes piezas, palés, contenedores, carga general y carga perecedera.
           
         .col-md-4
           figure
@@ -251,7 +266,7 @@
 
       .row(titulo="Buque granelero")
         .col-md-8.mb-4.mb-md-0
-          p.mb-3  Buque construido con una única cubierta, con tanques en la parte superior y tanques laterales de tolva en los espacios de carga, para el transporte de gráneles firmes y líquidos. La parte  de sus bodegas tiene forma de pirámide para aprovechar mejor el espacio. Regularmente permanecen dotados con grúas. Ciertos buques pueden atender alternativamente el transporte de líquidos o firmes, como los denominados «obo».
+          p.mb-3  Buque construido con una única cubierta, con tanques en la parte superior y tanques laterales de tolva en los espacios de carga, para el transporte de graneles firmes y líquidos. La parte  de sus bodegas tiene forma de pirámide para aprovechar mejor el espacio. Regularmente permanecen dotados con grúas. Ciertos buques pueden atender alternativamente el transporte de líquidos o firmes, como los denominados «obo».
           
         .col-md-4
           figure
@@ -308,7 +323,7 @@
     br
     br
     #t_1_2.titulo-segundo.color-secundario
-      h2 1.2. Simbología de manejo de carga
+      h2 1.2 Simbología de manejo de carga
 
     p.mb-5  Para hacer un adecuado transporte de mercancías, se necesita marcar correctamente el embalaje, ya que esta marcación dejará defender, trasladar, guardar y manipular apropiadamente una gigantesca proporción de empaques y embalajes.
     p.mb-5  Para el transporte de mercancía se conocen tres tipos de marcas:
@@ -343,7 +358,7 @@
           figure
             img.nW.centered(src='@/assets/curso/t1-nn1.png', alt='icono decorativo')          
 
-    p.mb-5 Para complementar el tema, es importante conocer la simbología de unidades de carga, los que se describen a continuación: 
+    p.mb-5 Para complementar el tema, es importante conocer la simbología de unidades de carga, la que se describe a continuación: 
 
     .row.mb-5.justify-content-center
       .col-lg-8
@@ -396,7 +411,7 @@
                   figure
                     img.nW.centered(src='@/assets/curso/t1-ic7.svg', alt='icono decorativo')    
                 td  Eslingas aquí
-                td  Indica dónde se deben emplazar las eslingas para elevar la carga
+                td  Indica dónde se deben emplazar las eslingas para elevar la carga.
                 
               tr
                 td 
@@ -457,7 +472,7 @@
                   figure
                     img.nW.centered(src='@/assets/curso/t1-ic16.svg', alt='icono decorativo')    
                 td  No manipular con las horquetas/horquillas en esta cara
-                td  Caras de la unidad de carga donde no se deben colocar las horquetas/horquillas de las carretilla manuales.
+                td  Caras de la unidad de carga donde no se deben colocar las horquetas/horquillas de las carretillas manuales.
 
 
 

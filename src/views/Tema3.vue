@@ -22,7 +22,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/t3-i2.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4.shadow-box
-            p.mb-0.text-bold Para seleccionar la mercancía de manera adecuada, es necesario responder a la siguiente pregunta ¿cómo se relacionan el <i>picking</i> y el <i>packing</i>? Aunque son dos procesos diferentes, ellos son complementarios, ya que el <i>picking</i> prepara el pedido antes de ser empacado y después, el packing se encarga del embalaje del producto.
+            p.mb-0.text-bold Para seleccionar la mercancía de manera adecuada, es necesario responder a la siguiente pregunta ¿cómo se relacionan el <i>picking</i> y el <i>packing</i>? Aunque son dos procesos diferentes, ellos son complementarios, ya que el <i>picking</i> prepara el pedido antes de ser empacado y después, el <i>packing</i> se encarga del embalaje del producto.
 
 
 

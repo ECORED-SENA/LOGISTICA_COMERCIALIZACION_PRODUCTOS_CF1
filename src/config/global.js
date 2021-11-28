@@ -232,12 +232,12 @@ export default {
       {
         nombre: 'Nelly Parra Guarín',
         cargo: 'Experta temática',
-        centro: 'Centro de gestión industrial - Regional Distrito Capital',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
       },
       {
         nombre: 'Paula Andrea Taborda Ortiz',
         cargo: 'Diseñadora instruccional',
-        centro: 'Centro de diseño y metrología - Regional Distrito Capital',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
       {
         nombre: 'Ana Catalina Córdoba Sus',
@@ -265,7 +265,7 @@ export default {
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: 'Jorge Armando ',
+        nombre: 'Marcela González Gómez',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -277,7 +277,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Mauricio Santaella',
+        nombre: 'Andrés Mauricio Santaella Ochoa',
         cargo: 'Soporte front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -289,7 +289,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Jenny Paola Montillo Gélvez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

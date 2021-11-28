@@ -11,7 +11,7 @@
       .col-lg-8.slideInLeft
         .cajon-b.color-primario.p-4.mb-4
           p.mb-0.text-bold  La ficha técnica es un documento en forma de sumario que contiene la descripción de las características técnicas de un objeto, material, producto o bien de manera detallada. Los contenidos varían dependiendo del producto, servicio o entidad descrita, pero en general contiene datos como el nombre, características físicas, el modo de uso o elaboración, propiedades distintivas, métodos de ensayo y especificaciones técnicas.
-        p.mb-3  La preparación de la ficha técnica posibilita adecuar los productos mediante la estandarización de los productos, de esta forma se describe la calidad requerida por el comprador, además posibilita a este conocer la información técnica del producto o los productos que está adquiriendo y, así mismo, ofrecer cumplimiento a las exigencias que la ley exige en la normatividad presente; lo anterior posibilita evitar inconvenientes económicos y facilitar la verificación de calidad de producto.
+        p.mb-3  La preparación de la ficha técnica posibilita adecuar los productos mediante la estandarización, de esta forma se describe la calidad requerida por el comprador, además posibilita a este conocer la información técnica del producto o los productos que está adquiriendo y, así mismo, ofrecer cumplimiento a las exigencias de la ley en la normatividad presente; lo anterior posibilita evitar inconvenientes económicos y facilitar la verificación de calidad de producto.
       .col-lg-4.slideInRight
         figure
           img(src='@/assets/curso/t2-i1.jpg' alt='')
@@ -30,9 +30,6 @@
                       th Nombre producto
                       th Pimentón molido
                   tbody
-                    tr
-                      td Nombre producto
-                      td.b-left Pimentón molido
                     tr
                       td Nro. producto: 
                       td.b-left 32.589
@@ -55,7 +52,7 @@
                       td Fecha vencimiento:
                       td.b-left Marzo 2020
                     tr
-                      td Lote N°:
+                      td Lote N.°:
                       td.b-left 2036589
 
 
