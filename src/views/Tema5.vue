@@ -34,42 +34,42 @@
       .tarjeta.p-4.mb-5.r-0
         SlyderA(tipo="a")
           .row.align-items-center
-            .col-md-8.mb-4.mb-md-0
+            .col-md-8.mb-4.mb-md-0.p-5
               .h4 Grúas
               p Dependiendo de su implementación, de las propiedades de la mercancía, del volumen a manejar y del precio de inversión las hay de diferentes tipos como puente, cigüeña, martillo, móviles, de cuchara.
             .col-md-4
               figure
                 img(src='@/assets/curso/t5-i2.png', alt='imagen decorativa')
           .row.align-items-center
-            .col-md-8.mb-4.mb-md-0
+            .col-md-8.mb-4.mb-md-0.p-5
               .h4 Transpaleta manual
               p Son carretillas de uñas dobles que sirven para desplazar mercancías en distancias cortas y que no sean bastante pesadas, usadas usualmente en almacenes y para  carga/descarga en el centro de camiones, en especial una vez que no hay muelles.
             .col-md-4
               figure
                 img(src='@/assets/curso/t5-i3.png', alt='imagen decorativa')
           .row.align-items-center
-            .col-md-8.mb-4.mb-md-0
+            .col-md-8.mb-4.mb-md-0.p-5
               .h4 Transpaleta eléctrica
               p Igual a la anterior, sin embargo, el operario va comúnmente sobre ella, se mueve eléctricamente, sirven para pesos más grandes y aceptan uñas más largas para cargar dos paletas paralelamente, además se usan comúnmente en la preparación de pedidos, una vez que se deben recorrer gigantes distancias.
             .col-md-4
               figure
                 img(src='@/assets/curso/t5-i4.png', alt='imagen decorativa')
           .row.align-items-center
-            .col-md-8.mb-4.mb-md-0
+            .col-md-8.mb-4.mb-md-0.p-5
               .h4 Carretillas
               p Sirven para desplazar paletas y contenedores, varían de manera enorme de peso y elevación, logrando desplazar hasta contenedores cargados.
             .col-md-4
               figure
                 img(src='@/assets/curso/t5-i5.png', alt='imagen decorativa')
           .row.align-items-center
-            .col-md-8.mb-4.mb-md-0
+            .col-md-8.mb-4.mb-md-0.p-5
               .h4 Equipos de manipulación de contenedores
               p Son enormes carretillas de uñas, (grúas-puente), <i>straddle carriers</i> (torres móviles), <i>spreaders</i> (bastidores), que conforman el parque elemental de las terminales de contenedores.
             .col-md-4
               figure
                 img(src='@/assets/curso/t5-i6.png', alt='imagen decorativa')
           .row.align-items-center
-            .col-md-8.mb-4.mb-md-0
+            .col-md-8.mb-4.mb-md-0.p-5
               .h4 Mangueras de impulsión/succión
               p Accionadas neumáticamente (graneles sólidos) o hidráulicamente (graneles líquidos) se usan para carga/descarga de minerales ligeros, cereales, petróleo, productos químicos y alimenticios.
             .col-md-4
@@ -77,7 +77,7 @@
                 img(src='@/assets/curso/t5-i7.png', alt='imagen decorativa')
 
           .row.align-items-center
-            .col-md-8.mb-4.mb-md-0
+            .col-md-8.mb-4.mb-md-0.p-5
               .h4 Cintas de carga
               p Para funcionamiento de minerales y cereales con libertad de su densidad, principalmente elaboradas en neopreno.
             .col-md-4
@@ -85,7 +85,7 @@
                 img(src='@/assets/curso/t5-i8.png', alt='imagen decorativa')
 
           .row.align-items-center
-            .col-md-8.mb-4.mb-md-0
+            .col-md-8.mb-4.mb-md-0.p-5
               .h4 Plataformas (<i>Roll-trailers</i>) 
               p Plataformas bajas, dotadas de ruedas utilizadas en los puertos de carga y descarga a bordo de buques de transbordo, ofrecen ahorro en tiempos lo que favorece la operación.
             .col-md-4
