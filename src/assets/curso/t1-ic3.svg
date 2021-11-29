@@ -7,10 +7,10 @@
       <rect id="Rectangle_34518" data-name="Rectangle 34518" width="1.512" height="26.594" transform="translate(601.762 1465.615)"/>
       <path id="Path_159170" data-name="Path 159170" d="M638.047,1473.8h-4.7v-3.025L627.125,1477l6.218,5.671v-3.487h4.7Z" transform="translate(14.296 3.407)"/>
       <path id="Path_159171" data-name="Path 159171" d="M586.471,1473.8h4.7v-3.025l6.218,6.218-6.218,5.671v-3.487h-4.7Z" transform="translate(0 3.407)"/>
-      <rect id="Rectangle_34519" data-name="Rectangle 34519" width="2.272" height="49.41" rx="0.841" transform="matrix(-0.697, 0.717, -0.717, -0.697, 638.412, 1495.542)"/>
-      <path id="Rectangle_34519_-_Outline" data-name="Rectangle 34519 - Outline" d="M.841.25A.591.591,0,0,0,.25.841V48.57a.591.591,0,0,0,.591.591h.591a.591.591,0,0,0,.591-.591V.841A.591.591,0,0,0,1.432.25H.841m0-.25h.591a.841.841,0,0,1,.841.841V48.57a.841.841,0,0,1-.841.841H.841A.841.841,0,0,1,0,48.57V.841A.841.841,0,0,1,.841,0Z" transform="matrix(-0.697, 0.717, -0.717, -0.697, 638.412, 1495.542)" fill="#f6f6f6"/>
-      <rect id="Rectangle_34520" data-name="Rectangle 34520" width="2.272" height="49.41" rx="0.841" transform="translate(636.898 1461.156) rotate(46.017)"/>
-      <path id="Rectangle_34520_-_Outline" data-name="Rectangle 34520 - Outline" d="M.841.25A.591.591,0,0,0,.25.841V48.57a.591.591,0,0,0,.591.591h.591a.591.591,0,0,0,.591-.591V.841A.591.591,0,0,0,1.432.25H.841m0-.25h.591a.841.841,0,0,1,.841.841V48.57a.841.841,0,0,1-.841.841H.841A.841.841,0,0,1,0,48.57V.841A.841.841,0,0,1,.841,0Z" transform="translate(636.898 1461.156) rotate(46.017)" fill="#f6f6f6"/>
+      <rect id="Rectangle_34519" data-name="Rectangle 34519" width="4.272" height="49.41" rx="0.841" transform="matrix(-0.697, 0.717, -0.717, -0.697, 639.806, 1494.109)"/>
+      <path id="Rectangle_34519_-_Outline" data-name="Rectangle 34519 - Outline" d="M.841.7A.141.141,0,0,0,.7.841V48.57a.141.141,0,0,0,.141.141H3.432a.141.141,0,0,0,.141-.141V.841A.141.141,0,0,0,3.432.7H.841m0-.7H3.432a.841.841,0,0,1,.841.841V48.57a.841.841,0,0,1-.841.841H.841A.841.841,0,0,1,0,48.57V.841A.841.841,0,0,1,.841,0Z" transform="matrix(-0.697, 0.717, -0.717, -0.697, 639.806, 1494.109)" fill="#f6f6f6"/>
+      <rect id="Rectangle_34520" data-name="Rectangle 34520" width="4.272" height="49.41" rx="0.841" transform="translate(635.509 1459.717) rotate(46.017)"/>
+      <path id="Rectangle_34520_-_Outline" data-name="Rectangle 34520 - Outline" d="M.841.7A.141.141,0,0,0,.7.841V48.57a.141.141,0,0,0,.141.141H3.432a.141.141,0,0,0,.141-.141V.841A.141.141,0,0,0,3.432.7H.841m0-.7H3.432a.841.841,0,0,1,.841.841V48.57a.841.841,0,0,1-.841.841H.841A.841.841,0,0,1,0,48.57V.841A.841.841,0,0,1,.841,0Z" transform="translate(635.509 1459.717) rotate(46.017)" fill="#f6f6f6"/>
     </g>
   </g>
 </svg>

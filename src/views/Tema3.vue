@@ -13,7 +13,7 @@
           p.mb-0  <b>En cualquier centro de distribución la fase de preparación de pedidos es una de las más relevantes.</b> En esta se asegura que el producto sea el conveniente y que su preparación y embalaje sean los adecuados para llegar en perfectas condiciones a su destino final. Por consiguiente, si la fase de preparación de demandas en pedidos no es eficiente, la productividad de la organización y la vivencia del comprador tienen la posibilidad de verse afectadas.        
       .col-lg-4
         figure
-          img.nW.centered(src='@/assets/curso/t3-i1.png' alt='imagen decorativa')
+          img.centered(src='@/assets/curso/t3-i1.png' alt='imagen decorativa')
     
     .row.mb-5.justify-content-center
       .col-lg-10.slideInRight

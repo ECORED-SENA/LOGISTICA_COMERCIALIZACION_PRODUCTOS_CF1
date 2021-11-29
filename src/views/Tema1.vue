@@ -337,7 +337,7 @@
     .tarjeta.tarjeta--azul.mb-5.p-4
       .row.mb-5.justify-content-center
         .col-lg-4
-          ImagenInfografica.color-secundario
+          ImagenInfografica.color-secundario.customDots
             template(v-slot:imagen)
               figure
                 img(src='@/assets/curso/t1-box.svg', alt='Despacho de mercancias')
@@ -371,9 +371,9 @@
         .tabla-c
           table
             thead
-              th Símbolo
-              th Instrucción
-              th.mw200 Significado
+              th.text-center.mw200 Símbolo
+              th.text-center Instrucción
+              th.mw200.text-center Significado
             tbody
               tr
                 td 

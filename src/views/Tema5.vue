@@ -14,7 +14,7 @@
           p.mb-0  Los principales aspectos para la clasificación de mercancías se basan en su estado de físico, para establecer las diferentes características de durabilidad o caducidad de la mercancía, lo que influye de forma importante en su conservación y mantenimiento, además se puede establecer su nivel de peligrosidad, su nivel de rotación y la funcionalidad que practica dentro del flujo logístico, así mismo, la interacción entre el peso y el volumen de la carga a guardar (forma, tamaño, densidad).        
       .col-lg-4
         figure
-          img.nW.centered(src='@/assets/curso/t5-i1.jpg' alt='imagen decorativa')
+          img.centered(src='@/assets/curso/t5-i1.jpg' alt='imagen decorativa')
 
 
     
