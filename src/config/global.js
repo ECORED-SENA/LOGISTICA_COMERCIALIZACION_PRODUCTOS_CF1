@@ -157,7 +157,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Ballou, R. H. (2004). Logistica. Administración de la cadena de suministro. Prentice Hall.',
+        'Ballou, R. H. (2004). Logística. Administración de la cadena de suministro. Prentice Hall.',
     },
     {
       referencia:
@@ -165,7 +165,7 @@ export default {
     },
     {
       referencia:
-        'Trainer, M. (2008). Lord Kelvin, Recipient of The John Fritz Medal in 1905. Physics in Perspective, 10(2), 212-223.',
+        'Trainer, M. (2008). <i>Lord Kelvin, Recipient of The John Fritz Medal in 1905. Physics in Perspective</i>, 10(2), 212-223.',
     },
   ],
   glosario: [
@@ -187,7 +187,7 @@ export default {
     {
       termino: 'Medio de transporte',
       significado:
-        'cualquier nave, aeronave, vagón de tren o transporte de transporte por carretera, integrados los remolques y semirremolques, una vez que permanecen incorporados a un tractor o a otro transporte móvil.',
+        'cualquier nave, aeronave, vagón de tren o transporte por carretera, integrados los remolques y semirremolques, una vez que permanecen incorporados a un tractor o a otro transporte móvil.',
     },
     {
       termino: 'Unidad de carga',

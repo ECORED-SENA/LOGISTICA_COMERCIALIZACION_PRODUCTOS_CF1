@@ -22,7 +22,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/t3-i2.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4.shadow-box
-            p.mb-0.text-bold Para seleccionar la mercancía de manera adecuada, es necesario responder a la siguiente pregunta ¿cómo se relacionan el <i>picking</i> y el <i>packing</i>? Aunque son dos procesos diferentes, ellos son complementarios, ya que el <i>picking</i> prepara el pedido antes de ser empacado y después, el <i>packing</i> se encarga del embalaje del producto.
+            p.mb-0 Para seleccionar la mercancía de manera adecuada, es necesario responder a la siguiente pregunta ¿cómo se relacionan el <i>picking</i> y el <i>packing</i>? Aunque son dos procesos diferentes, ellos son complementarios, ya que el <i>picking</i> prepara el pedido antes de ser empacado y después, el <i>packing</i> se encarga del embalaje del producto.
 
 
 
@@ -128,10 +128,10 @@
               h4 Preparación
               ul.lista-ul
                 li
-                  i.fas.fa-check
+                  i.fas.fa-angle-right
                   p.mb-0 Recolección de datos y entrega de documentos y órdenes clasificadas.
                 li
-                  i.fas.fa-check
+                  i.fas.fa-angle-right
                   p.mb-0 Preparación de equipos requeridos.            
             .col-md-3
               figure
@@ -145,20 +145,20 @@
               .h4 Recorrido
               ul.lista-ul
                 li
-                  i.fas.fa-check
+                  i.fas.fa-angle-right
                   p.mb-0 Desde la zona de operaciones hasta el punto donde se ubica el producto.
                 li
-                  i.fas.fa-check
+                  i.fas.fa-angle-right
                   p.mb-0 Desde el punto de ubicación al siguiente y así sucesivamente.
                 li
-                  i.fas.fa-check
+                  i.fas.fa-angle-right
                   p.mb-0 Regreso a la zona de operaciones. Se utiliza el concepto de secuenciación para garantizar el tiempo óptimo para este proceso.
           .row
             .col-md-9.mb-4.mb-md-0
               h4 Extracción
               ul.lista-ul
                 li
-                  i.fas.fa-check
+                  i.fas.fa-angle-right
                   p.mb-0 También llamado retiro, es la actividad de  posicionarse donde se encuentra el producto a piso o en altura, hacer su extracción, recuento de producto y devolución sobrante si es el caso.
          
             .col-md-3
@@ -173,13 +173,13 @@
               .h4 Verificación del pedido preparado
               ul.lista-ul
                 li
-                  i.fas.fa-check
+                  i.fas.fa-angle-right
                   p.mb-0 Control, embalaje, acondicionado en cajas, precintado, pesaje y etiquetado.
                 li
-                  i.fas.fa-check
+                  i.fas.fa-angle-right
                   p.mb-0 Traslado a zona de expedición y clasificación por transportistas en destino.
                 li
-                  i.fas.fa-check
+                  i.fas.fa-angle-right
                   p.mb-0 Elaboración del <i>packing list</i> del transportista.
 
 

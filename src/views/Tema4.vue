@@ -36,9 +36,9 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1 Indicadores de gestión
-                  p.text-small El documento aborda por qué y para qué medir un indicador de gestión.
+                  p El documento aborda por qué y para qué medir un indicador de gestión.
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo_indicadores_gestion.pptx')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/anexo_indicadores_gestion.pptx')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
