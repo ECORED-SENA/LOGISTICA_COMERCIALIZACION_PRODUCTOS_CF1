@@ -45,7 +45,7 @@
                   h3.mb-1 Decreto 1079 de 2015 - Ministerio de Transporte. Decreto Único Reglamentario del Sector Transporte.
                   p.text-small Se invita a consultar el Decreto 1079 de 2015 expedido por el Ministerio de Transporte, en donde se establece como único y reglamentario del sector transporte.
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/decreto-1079.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
