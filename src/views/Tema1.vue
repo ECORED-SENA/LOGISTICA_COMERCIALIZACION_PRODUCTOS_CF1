@@ -416,7 +416,10 @@
                 td 
                   figure
                     img.nW.centered(src='@/assets/curso/t1-ic7.svg', alt='icono decorativo')    
-                td  Eslingas aquí
+                td  
+                  p Eslingas aquí
+                  figure
+                    img.nW(src='@/assets/curso/t1-ic7-1.svg', alt='icono decorativo') 
                 td  Indica dónde se deben emplazar las eslingas para elevar la carga.
                 
               tr

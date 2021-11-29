@@ -26,7 +26,7 @@
             .tarjeta-numerada__numero
               .h2 1
             .h3.text-center Terminales de radiofrecuencia.
-        .col-xs-6.col-md-6.col-xl-3.mb-4.mb-xl-0(data-aos='flip-left')
+        .col-xs-6.col-md-6.col-xl-3.mb-4.mb-xl-0.h-100(data-aos='flip-left')
           .tarjeta-numerada.color-acento-contenido.p-5
             .tarjeta-numerada__numero
               .h2 2
@@ -42,7 +42,7 @@
     p.mb-5  Por otro lado, las evidentes diferencias y diversas propiedades de cada tecnología, involucran que, anterior a ser implementadas, se deba realizar una evaluación de ciertos componentes, como, por ejemplo: la productividad de <i>picking</i> en superficies de alta densidad; independencia en la utilización de las manos a causa de los operadores, capacidad para hallar las posiciones, la función de proporcionar información o el decrecimiento de los errores de “pickeo”. Es frente a estos y otros límites que las tecnologías empiezan a marcar sus diferencias y utilidades concretas.
 
     .row.mb-5.justify-content-center
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0
         .tarjeta.color-acento-contenido.p-4.h-100
           .row.justify-content-center.mb-3
             .col-7
@@ -50,15 +50,15 @@
                 img(src='@/assets/curso/t7-ic1.svg', alt='imagen decorativa')
           h3.text-center Código de barras
 
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta.color-secundario.p-4
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0
+        .tarjeta.color-secundario.p-4.h-100
           .row.justify-content-center.mb-3
             .col-7
               figure
                 img(src='@/assets/curso/t7-ic2.svg', alt='imagen decorativa')
           h3.text-center Terminales de radiofrecuencia
 
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0
         .tarjeta.color-primario.p-4
           .row.justify-content-center.mb-3
             .col-7

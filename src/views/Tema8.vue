@@ -48,7 +48,7 @@
             .lista-ol--cuadro__vineta
               span
                 i.fas.fa-chevron-right
-            p.mb-0 Un pedido preparado por el comprador más una transmisión electrónica tendrá una época de transmisión total equivalente a una llamada telefónica, fax, mensaje electrónico de datos o utilización de una página web.        
+            p Un pedido preparado por el comprador más una transmisión electrónica tendrá una época de transmisión total equivalente a una llamada telefónica, fax, mensaje electrónico de datos o utilización de una página web.        
         p.mb-5   A veces podría ser fundamental integrar, en la era del periodo del pedido, la época que le toma al comprador colmar un pedido o la era en medio de las visitas de los vendedores.
 
       .col-lg-5

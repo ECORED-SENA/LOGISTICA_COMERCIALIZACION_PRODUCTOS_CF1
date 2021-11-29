@@ -10,7 +10,7 @@
     .row.mb-5
       .col-lg-8.slideInLeft
         .cajon-b.color-primario.p-4.mb-4
-          p.mb-0.text-bold  La ficha técnica es un documento en forma de sumario que contiene la descripción de las características técnicas de un objeto, material, producto o bien de manera detallada. Los contenidos varían dependiendo del producto, servicio o entidad descrita, pero en general contiene datos como el nombre, características físicas, el modo de uso o elaboración, propiedades distintivas, métodos de ensayo y especificaciones técnicas.
+          p.mb-0 La ficha técnica es un documento en forma de sumario que contiene la descripción de las características técnicas de un objeto, material, producto o bien de manera detallada. Los contenidos varían dependiendo del producto, servicio o entidad descrita, pero en general contiene datos como el nombre, características físicas, el modo de uso o elaboración, propiedades distintivas, métodos de ensayo y especificaciones técnicas.
         p.mb-3  La preparación de la ficha técnica posibilita adecuar los productos mediante la estandarización, de esta forma se describe la calidad requerida por el comprador, además posibilita a este conocer la información técnica del producto o los productos que está adquiriendo y, así mismo, ofrecer cumplimiento a las exigencias de la ley en la normatividad presente; lo anterior posibilita evitar inconvenientes económicos y facilitar la verificación de calidad de producto.
       .col-lg-4.slideInRight
         figure
@@ -27,8 +27,8 @@
                 table
                   thead
                     tr
-                      th Nombre producto
-                      th Pimentón molido
+                      th.text-center Nombre producto
+                      th.text-center Pimentón molido
                   tbody
                     tr
                       td Nro. producto: 
