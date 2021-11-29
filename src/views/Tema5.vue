@@ -11,7 +11,7 @@
     .row.mb-5.align-items-center.justify-content-center
       .col-lg-8.slideInLeft
         .cajon-b.color-primario.p-4.mb-4
-          p.mb-0  Los principales aspectos para la clasificación de mercancías se basan en el estado de físico de las mercancías, para establecer las diferentes características de durabilidad o caducidad de la mercancía, lo que influye de forma importante en su conservación y mantenimiento, además se puede establecer su nivel de peligrosidad, su nivel de rotación y la funcionalidad que practica dentro del flujo logístico, así mismo, la interacción entre el peso y el volumen de la carga a guardar (forma, tamaño, densidad).        
+          p.mb-0  Los principales aspectos para la clasificación de mercancías se basan en su estado de físico, para establecer las diferentes características de durabilidad o caducidad de la mercancía, lo que influye de forma importante en su conservación y mantenimiento, además se puede establecer su nivel de peligrosidad, su nivel de rotación y la funcionalidad que practica dentro del flujo logístico, así mismo, la interacción entre el peso y el volumen de la carga a guardar (forma, tamaño, densidad).        
       .col-lg-4
         figure
           img.nW.centered(src='@/assets/curso/t5-i1.jpg' alt='imagen decorativa')
@@ -20,7 +20,7 @@
     
 
     #t_5_1.titulo-segundo.color-secundario
-      h2 5.1. Manipulación de mercancías 
+      h2 5.1 Manipulación de mercancías 
     p.mb-5  La manipulación de carga engloba cada una de las operaciones de desempeño de la mercancía en almacenes, plataformas y terminales de transporte.
 
     .row.mb-5.justify-content-center
@@ -36,7 +36,7 @@
           .row.align-items-center
             .col-md-8.mb-4.mb-md-0
               .h4 Grúas
-              p Dependiendo su implementación, de las propiedades de la mercancía, del volumen a manejar y del precio de inversión las hay diferentes tipos como puente, cigüeña, martillo, móviles, de cuchara.
+              p Dependiendo de su implementación, de las propiedades de la mercancía, del volumen a manejar y del precio de inversión las hay de diferentes tipos como puente, cigüeña, martillo, móviles, de cuchara.
             .col-md-4
               figure
                 img(src='@/assets/curso/t5-i2.png', alt='imagen decorativa')
@@ -49,8 +49,8 @@
                 img(src='@/assets/curso/t5-i3.png', alt='imagen decorativa')
           .row.align-items-center
             .col-md-8.mb-4.mb-md-0
-              .h4 Transpaleta eléctrico
-              p Igual a la anterior, sin embargo, el operario va comúnmente sobre ella, se mueve eléctricamente, sirven para pesos más grandes y aceptan uñas más largas para cargar dos paletas paralelamente, además se usan comúnmente en la preparación de pedidos una vez que se debe recorrer gigantes distancias.
+              .h4 Transpaleta eléctrica
+              p Igual a la anterior, sin embargo, el operario va comúnmente sobre ella, se mueve eléctricamente, sirven para pesos más grandes y aceptan uñas más largas para cargar dos paletas paralelamente, además se usan comúnmente en la preparación de pedidos, una vez que se deben recorrer gigantes distancias.
             .col-md-4
               figure
                 img(src='@/assets/curso/t5-i4.png', alt='imagen decorativa')
@@ -64,7 +64,7 @@
           .row.align-items-center
             .col-md-8.mb-4.mb-md-0
               .h4 Equipos de manipulación de contenedores
-              p Son enormes carretillas de uñas, (grúas-puente), Straddle carriers (torres móviles), Spreaders (bastidores), que conforman el parque elemental de las terminales de contenedores.
+              p Son enormes carretillas de uñas, (grúas-puente), <i>straddle carriers</i> (torres móviles), <i>spreaders</i> (bastidores), que conforman el parque elemental de las terminales de contenedores.
             .col-md-4
               figure
                 img(src='@/assets/curso/t5-i6.png', alt='imagen decorativa')
@@ -86,7 +86,7 @@
 
           .row.align-items-center
             .col-md-8.mb-4.mb-md-0
-              .h4 Plataformas (Roll-trailers) 
+              .h4 Plataformas (<i>Roll-trailers</i>) 
               p Plataformas bajas, dotadas de ruedas utilizadas en los puertos de carga y descarga a bordo de buques de transbordo, ofrecen ahorro en tiempos lo que favorece la operación.
             .col-md-4
               figure
@@ -97,7 +97,7 @@
     br
     br
     #t_5_2.titulo-segundo.color-secundario
-      h2 5.2. Tipos de almacenamiento   
+      h2 5.2 Tipos de almacenamiento   
     p.mb-3(data-aos='slide-up')  Los tipos de almacenamiento que pertenecen a una compañía son de una pluralidad casi infinita, dado los diseños personalizados que siguen las necesidades especializadas. Por lo opuesto, un centro de repartición sirve para saciar el extenso rango de necesidades de las compañías. Por ello, una vez que se comparan con almacenamiento especializado son más estandarizados en la configuración del espacio y en la utilización del equipo para múltiples fines. 
     p.mb-5(data-aos='slide-up')  Los almacenes de los centros de distribución tienen la posibilidad de clasificarse en un número reducido de equipos.
 
@@ -121,7 +121,7 @@
             .tarjeta-flip__contenido.p-4.p-xl-5.text-center
               br
               .h3 Almacenes de volúmenes gigantes
-              p.mb-4 Ciertos almacenes ofrecen guardar y manejar productos de gran volumen z(a granel), como productos químicos líquidos, aceite, sales para autopistas y almíbares. Además, mezclan productos y separan embarques consolidados como parte de su servicio.
+              p.mb-4 Ciertos almacenes ofrecen guardar y manejar productos de gran volumen (a granel), como productos químicos líquidos, aceite, sales para autopistas y almíbares. Además, mezclan productos y separan embarques consolidados como parte de su servicio.
               br
 
       .col-sm-6.col-xl-4.mb-4.mb-xl-0
@@ -142,7 +142,7 @@
             .tarjeta-flip__contenido.p-4.p-xl-5.text-center
               br
               .h3 Almacenes de bienes domésticos
-              p.mb-0 Guardar y manejar artículos y menaje del hogar son la especialidad de estos almacenes. Aun cuando los productores de muebles tienen la posibilidad de utilizar dichos almacenes, los usuarios primordiales son las compañías de mudanzas de bienes.
+              p.mb-0 Guardar y manejar artículos y menaje del hogar son la especialidad de estos almacenes. Aun cuando los productores de muebles tienen la posibilidad de utilizar dichos almacenes, los usuarios primordiales son las compañías de mudanzas de bienes domésticos.
               br
 
       .col-sm-6.col-xl-4.mb-4.mb-xl-0

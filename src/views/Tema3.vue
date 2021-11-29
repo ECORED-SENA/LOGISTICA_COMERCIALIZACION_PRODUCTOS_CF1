@@ -30,8 +30,8 @@
 
 
     #t_3_1.titulo-segundo.color-secundario
-      h2 3.1. Solicitud de pedidos y despacho
-    p.mb-5  Crear una <i>Picking List</i> es la mejor forma de optimizar la preparación de pedidos. Las actividades manuales de preparación de pedidos en el centro de distribución son principalmente trabajos de clasificación y ordenación por destinos de acuerdo con la solicitud del cliente. Las actividades consisten en: levantar, mover, recoger, poner, embalaje y otros trabajos típicos. El proceso de <i>picking manual</i> para comparar las actividades físicas y actividades cognitivas, se trata de un paso que es fácil, sin embargo, requiere de atención y concentración; habilidades cognitivas incluidas.
+      h2 3.1 Solicitud de pedidos y despacho
+    p.mb-5  Crear una <i>picking list</i> es la mejor forma de optimizar la preparación de pedidos. Las actividades manuales de preparación de pedidos en el centro de distribución son principalmente trabajos de clasificación y ordenación por destinos de acuerdo con la solicitud del cliente. Las actividades consisten en: levantar, mover, recoger, poner, embalaje y otros trabajos típicos. El proceso de <i>picking</i> manual para comparar las actividades físicas y actividades cognitivas, se trata de un paso que es fácil, sin embargo, requiere de atención y concentración; habilidades cognitivas incluidas.
     .neg-margin-x.bg-curved.mb-0
       .row.justify-content-center
         .col-lg-7
@@ -44,7 +44,7 @@
                 p A continuación, <b>comienzan a moverse con el carro para colocar en él los artículos</b>, mientras buscan el lugar de recogida.                 
             .row
               .col-md-12.mb-4.mb-md-0
-                p Después de encontrar la ubicación de picking, <b>se dirigen al lugar y recogen los artículos de la estantería de almacenamiento</b>, identificando aquellos que van a ser clasificados, y a la vez contando el número de artículos.                 
+                p Después de encontrar la ubicación de <i>picking</i>, <b>se dirigen al lugar y recogen los artículos de la estantería de almacenamiento</b>, identificando aquellos que van a ser clasificados, y a la vez contando el número de artículos.                 
         .col-lg-4
           figure
             img.nW(src='@/assets/curso/t3-i4.png' alt='imagen decorativa')
@@ -67,8 +67,21 @@
                   i.fas.fa-check
                   p.mb-0 Ficha técnica
 
-            .tarjeta.color-secundario.p-3.shadow-box(x="85.5%" y="27%" numero="2")
-              .h5.mb-2 Indicadores de gestión
+            .tarjeta.color-secundario.p-3.shadow-box(x="49%" y="6%" numero="2")
+              .h5.mb-2 Especificaciones de la mercancía
+              ul.lista-ul
+                li
+                  i.fas.fa-check
+                  p.mb-0 Tipo
+                li
+                  i.fas.fa-check
+                  p.mb-0 Naturaleza
+                li
+                  i.fas.fa-check
+                  p.mb-0 Característica
+
+            .tarjeta.color-secundario.p-3.shadow-box(x="49%" y="80%" numero="4")
+              .h5.mb-2 Herramientas de comunicación
               ul.lista-ul
                 li
                   i.fas.fa-check
@@ -80,7 +93,7 @@
                   i.fas.fa-check
                   p.mb-0 Sistemas de voz    
 
-            .tarjeta.color-secundario.p-3.shadow-box(x="14%" y="63%" numero="3")
+            .tarjeta.color-secundario.p-3.shadow-box(x="14%" y="63%" numero="5")
               .h5.mb-2 Normativa de producto
               ul.lista-ul
                 li
@@ -89,7 +102,7 @@
                 li
                   i.fas.fa-check
                   p.mb-0 Procedimiento
-            .tarjeta.color-secundario.p-3.shadow-box(x="85.5%" y="63%" numero="4")
+            .tarjeta.color-secundario.p-3.shadow-box(x="85.5%" y="63%" numero="3")
               .h5.mb-2 Procesos de recibo y despacho
               ul.lista-ul
                 li
@@ -102,10 +115,10 @@
     .row.mb-5.justify-content-center
       .col-lg-8
         .cajon.color-acento-contenido.p-4
-          p.mb-0  Las actividades de desplazamiento y recogida continúan hasta que se acumulan todos los productos de la lista de pedidos. Aunque se realice el mismo pedido, el rendimiento del picking puede variar en función de las actividades de cognición del preparador; muchos errores de preparación de pedidos se producen al contar o identificar los artículos. 
+          p.mb-0  Las actividades de desplazamiento y recogida continúan hasta que se acumulan todos los productos de la lista de pedidos. Aunque se realice el mismo pedido, el rendimiento del <i>picking</i> puede variar en función de las actividades de cognición del preparador; muchos errores de preparación de pedidos se producen al contar o identificar los artículos. 
 
 
-    p.mb-5.text-bold  Es necesario tener presente que el picking, involucra cuatro etapas; estas son:
+    p.mb-5.text-bold  Es necesario tener presente que el <i>picking</i>, involucra cuatro etapas; estas son:
 
     .row.mb-5.justify-content-center
       .col-lg-10
@@ -139,7 +152,7 @@
                   p.mb-0 Desde el punto de ubicación al siguiente y así sucesivamente.
                 li
                   i.fas.fa-check
-                  p.mb-0 Regreso a la zona de operaciones., se utiliza el concepto de secuenciación para garantizar el tiempo óptimo para este proceso.
+                  p.mb-0 Regreso a la zona de operaciones. Se utiliza el concepto de secuenciación para garantizar el tiempo óptimo para este proceso.
           .row
             .col-md-9.mb-4.mb-md-0
               h4 Extracción
@@ -167,7 +180,7 @@
                   p.mb-0 Traslado a zona de expedición y clasificación por transportistas en destino.
                 li
                   i.fas.fa-check
-                  p.mb-0 Elaboración del <i>Packing List</i> del transportista.
+                  p.mb-0 Elaboración del <i>packing list</i> del transportista.
 
 
     .row.mb-5.justify-content-center
@@ -238,13 +251,13 @@
     br
     br
     #t_3_2.titulo-segundo.color-secundario
-      h2 3.2. Sellos de seguridad  
+      h2 3.2 Sellos de seguridad  
     
     .row.mb-5.align-items-center.justify-content-center
       .col-lg-8.slideInLeft
         .cajon-b.color-primario.p-4.mb-4
-          p.mb-0.text-bold  Los sellos de seguridad para transporte son una pieza de alta tecnología indispensable para el negocio mundial. Dichos sellos son una pieza desarrollada de metal y plástico diseñado para cerrar el ingreso de un contenedor con productos o bienes; a diferencia de, ejemplificando, un candado, un sello de seguridad podría ser roto y no solamente podría ser roto, sino que se necesita que se abra para consumar su funcionalidad. En otras palabras, el sello únicamente sugiere en qué momento debería ser abierto por una persona autorizada. Por esa razón los sellos fueron creados con el fin de dejar prueba de todo intento de apertura no autorizado.       
-        p.mb-3  Esta característica de los sellos para transporte se complementa con su foliado impreso. Los sellos de estabilidad reciben un folio impreso en láser o hot-stamping. Este folio en números continuos y códigos de barras es primordial. Al poner sellos continuos en contenedores de productos, cajas de tráileres y otros recipientes de productos, se garantiza un orden logístico de empaquetado, de esta forma la compañía de transporte puede estar segura de que los objetos que guardó permanecen incólumes al abrir el sello. Al conservar un orden numérico, se garantiza que ningún contenedor falta; esto no únicamente incrementa la estabilidad, sino que ayuda a tener un óptimo orden de transporte.
+          p.mb-0.text-bold  Los sellos de seguridad para transporte son una pieza de alta tecnología, indispensable para el negocio mundial. Dichos sellos son una pieza desarrollada de metal y plástico, diseñado para cerrar el ingreso de un contenedor con productos o bienes; a diferencia de, ejemplificando, un candado, un sello de seguridad podría ser roto y no solamente podría ser roto, sino que se necesita que se abra para consumar su funcionalidad. En otras palabras, el sello únicamente sugiere en qué momento debería ser abierto por una persona autorizada. Por esa razón los sellos fueron creados con el fin de dejar prueba de todo intento de apertura no autorizado.       
+        p.mb-3  Esta característica de los sellos para transporte se complementa con su foliado impreso. Los sellos de estabilidad reciben un folio impreso en láser o <i>hot-stamping</i>. Este folio en números continuos y códigos de barras es primordial. Al poner sellos continuos en contenedores de productos, cajas de tráileres y otros recipientes de productos, se garantiza un orden logístico de empaquetado, de esta forma la compañía de transporte puede estar segura de que los objetos que guardó permanecen incólumes al abrir el sello. Al conservar un orden numérico, se garantiza que ningún contenedor falta; esto no únicamente incrementa la estabilidad, sino que ayuda a tener un óptimo orden de transporte.
       .col-lg-4
         figure
           img.nW.centered(src='@/assets/curso/t3-i7.png' alt='imagen decorativa')

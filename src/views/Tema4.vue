@@ -6,20 +6,19 @@
     .titulo-principal.color-acento-contenido(data-aos='flip-up')
       .titulo-principal__numero
         span 4
-      h1 Indicadores de logística - KPI (Key Performance Indicators)
+      h1 Indicadores de logística - KPI (<i>Key Performance Indicators</i>)
 
 
     .row.mb-5
       .col-lg-7.slideInLeft
-        p.mb-3  Los KPI o indicadores de gestión, <i>Key Performance Indicators</i> por sus siglas en inglés, no es una tarea fácil como se podría pensar, debido al hecho de que hay tantas variaciones diferentes de la definición de un KPI disponibles en la literatura escrita sobre este tema. Generalmente se encuentra un enfoque más concreto, más bien operativo, de los diferentes conceptos; los KPI deberían ser herramientas prácticas más que discursivas. 
-        p.mb-4  Aquí se retoma lo escrito por Kelvin, 
+        p.mb-4  Los KPI o indicadores de gestión, <i>Key Performance Indicators</i> por sus siglas en inglés, no es una tarea fácil como se podría pensar, debido al hecho de que hay tantas variaciones diferentes de la definición de un KPI disponibles en la literatura escrita sobre este tema. Generalmente se encuentra un enfoque más concreto, más bien operativo, de los diferentes conceptos; los KPI deberían ser herramientas prácticas más que discursivas. Aquí se retoma lo escrito por Kelvin: 
         .bloque-texto-d.color-secundario.p-4.mb-4
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
-            h3.text-regular lo que no se puede definir no se puede medir, lo que no se puede medir no se pueden mejorar, lo que no se puede mejorar se puede deteriorar
+            h3.text-regular Lo que no se puede definir no se puede medir, lo que no se puede medir no se pueden mejorar, lo que no se puede mejorar se puede deteriorar.
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
-            .h5.mb-0 - Lord, 2008
+            .h5.mb-0 - Lord, 2008.
 
         p  De acuerdo con lo anterior, un KPI es una medida que evalúa cómo una empresa ejecuta su visión estratégica. Este término se refiere a cómo una estrategia interactiva, se integra en la estrategia de la empresa en su conjunto, por ello es importante que todos los implicados en ella estén de acuerdo en lo que representa la estrategia y cómo se interpretan.
 
@@ -36,10 +35,10 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.mb-1 Decreto 1079 de 2015 - Ministerio de transporte. Decreto Único Reglamentario del Sector Transporte.
-                  p.text-small Se invita a consultar el Decreto 1079 de 2015 expedido por el Ministerio de Transporte, en donde se establece como único y reglamentario del sector transporte.
+                  h3.mb-1 Indicadores de gestión
+                  p.text-small El documento aborda por qué y para qué medir un indicador de gestión.
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo_indicadores_gestion.pptx')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
@@ -48,7 +47,7 @@
 
     .row.mb-5.justify-content-center
       .col-lg-12(data-aos='flip-up')
-        .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.customized-g
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/t4-i2.jpg')})`}"
           )
@@ -60,7 +59,7 @@
     .row.mb-5.justify-content-center  
       .col-lg-6
         figure(data-aos='flip-left')
-          img.nW.centered(src='@/assets/curso/t4-i3.jpg' alt='imagen decorativa')
+          img.nW.centered.mb-4(src='@/assets/curso/t4-i3.jpg' alt='imagen decorativa')
       .col-lg-4(data-aos='slide-right')
         ol.lista-ol--cuadro.lista-ol--separador
           li 

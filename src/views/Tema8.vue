@@ -37,7 +37,7 @@
     br
     .row.mb-5
       .col-lg-7
-        p.mb-4  El período de transmisión del pedido puede estar formado por diversos recursos de tiempo, dependiendo del método usado para comunicar las demandas:
+        p.mb-4  El periodo de transmisión del pedido puede estar formado por diversos recursos de tiempo, dependiendo del método usado para comunicar las demandas:
         ol.lista-ol--cuadro.lista-ol--separador.mb-4
           li 
             .lista-ol--cuadro__vineta
