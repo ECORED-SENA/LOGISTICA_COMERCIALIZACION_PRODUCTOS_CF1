@@ -63,34 +63,34 @@
       .tarjeta.p-4.mb-5.r-0
         SlyderA(tipo="a")
           .row.align-items-center
-            .col-md-8.mb-4.mb-md-0
+            .col-md-8.mb-4.mb-md-0.p-5
               .h4 Carga general:
               p Se trata de los productos transportados en pequeñas unidades independientes. Ejemplo: cajas, frascos y botellas.
             .col-md-4
               figure
                 img(src='@/assets/curso/t1-s0.png', alt='imagen decorativa')
           .row.align-items-center
-            .col-md-8.mb-4.mb-md-0
+            .col-md-8.mb-4.mb-md-0.p-5
               .h4 Carga suelta:
               p Compuesta por productos sueltos por unidades de tamaño, manipulados y transportados como unidades separadas. Ejemplo: llantas, madera y cilindros.
             .col-md-4
               figure
                 img(src='@/assets/curso/t1-s1.png', alt='imagen decorativa')
           .row.align-items-center
-            .col-md-8.mb-4.mb-md-0
+            .col-md-8.mb-4.mb-md-0.p-5
               .h4 Carga paletizada:
               p Compuesta por una cantidad de productos agrupados sobre una estiba para ser almacenada y transportada en una operación más sencilla. 
             .col-md-4
               figure
                 img(src='@/assets/curso/t1-s3.png', alt='imagen decorativa')
           .row.align-items-center
-            .col-md-8.mb-4.mb-md-0
+            .col-md-8.mb-4.mb-md-0.p-5
               .h4 Carga contenedorizada:
               p Es el tipo de carga que utiliza el contenedor, como unidad de transporte, que permite el traslado seguro e inviolable de la mercancía. 
             .col-md-4
               figure
                 img(src='@/assets/curso/t1-s4.png', alt='imagen decorativa')
-
+    br
     p.mb-5  Teniendo en cuenta el tipo de mercancía, los productos y mercancías, también se clasifican de acuerdo con su naturaleza:
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.color-primario.p-5
@@ -144,7 +144,7 @@
         .col-md-12.mb-4.mb-md-0
           p.mb-3  El medio sobre el que se sustenta el transporte de carretera es el camión, transporte compuesto por la unidad tractora y la caja que arrastra, llamada semirremolque. El camión podría ser duro, sin que se logren dividir ambos recursos y por lo que la carga reposa sobre el chasís o el articulado.
           p.mb-4  El remolque compuesto por una plataforma sin sistema de tracción propia, es arrastrado por una unidad tractora en la que se ensambla y reposa parcialmente, transfiriendo una sección mayoritaria de su masa y carga. No tiene eje delantero y puede contar con 1, 2 o 3 ejes traseros.
-          .h5 Tipos de camiones de carga en el transporte terrestre
+          .h5.mb-4 Tipos de camiones de carga en el transporte terrestre
           .row.mb-5
             .col-md-4.col-lg-4.tarjeta--tabla.p-4
               .row.justify-content-center.mb-3
@@ -164,6 +164,12 @@
                   .objBox
                     img(src='@/assets/curso/tt.svg' alt='ejemplo de camion')
               .h6.text-center Caja cerrada de 53 pies
+            .col-md-4.col-lg-4.tarjeta--tabla.p-4
+              .row.justify-content-center.mb-3
+                .col-10
+                  .objBox
+                    img(src='@/assets/curso/t-a4-1.svg' alt='ejemplo de camion')
+              .h6.text-center Caja cerrada de 48 pies
             .col-md-8.col-lg-8.tarjeta--tabla.p-4
               .row.justify-content-center.mb-3
                 .col-10
@@ -233,7 +239,7 @@
               .row.justify-content-center.mb-3
                 .col-10
                   .objBox
-                    img(src='@/assets/curso/t-a14.png' alt='ejemplo de camion')
+                    img(src='@/assets/curso/t-a15.png' alt='ejemplo de camion')
               .h6.text-center Madrina / Porta vehículos
               
 
