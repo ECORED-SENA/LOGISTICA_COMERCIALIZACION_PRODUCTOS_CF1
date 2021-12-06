@@ -118,7 +118,7 @@
           p.mb-0  Las actividades de desplazamiento y recogida continúan hasta que se acumulan todos los productos de la lista de pedidos. Aunque se realice el mismo pedido, el rendimiento del <i>picking</i> puede variar en función de las actividades de cognición del preparador; muchos errores de preparación de pedidos se producen al contar o identificar los artículos. 
 
 
-    p.mb-5.text-bold  Es necesario tener presente que el <i>picking</i>, involucra cuatro etapas; estas son:
+    p.mb-5  Es necesario tener presente que el <i>picking</i>, involucra cuatro etapas; estas son:
 
     .row.mb-5.justify-content-center
       .col-lg-10

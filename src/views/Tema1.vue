@@ -9,7 +9,7 @@
     .row.mb-5.slideInUp
       .col-lg-7
         .cajon-b.color-primario.p-3.mb-4
-          p.mb-0.text-bold  A lo largo de años, la funcionalidad logística fue considerada como una actividad rutinaria, meramente operativa y elemental para hacer llegar los productos a partir de los centros de producción a los de uso o consumo. A partir de esta visión, la funcionalidad logística en la organización era contemplada solo como un centro generador de costes sin capacidad de diferenciación (Ballou, 2004). 
+          p.mb-0  A lo largo de años, la funcionalidad logística fue considerada como una actividad rutinaria, meramente operativa y elemental para hacer llegar los productos a partir de los centros de producción a los de uso o consumo. A partir de esta visión, la funcionalidad logística en la organización era contemplada solo como un centro generador de costes sin capacidad de diferenciación (Ballou, 2004). 
         p.mb-3  En el campo académico, su análisis se realizaba a partir del punto de vista industrial o técnica, en busca de modelos que permitieran optimizar espacios, planear distribuciones y minimizar costes. La globalización de la economía y la consiguiente apertura de nuevos mercados distanciados geográficamente fueron cambiando la percepción de la funcionalidad logística hacia novedosas magnitudes, en las que la funcionalidad logística permitía ciertas ventajas competitivas fundamentadas en la reducción de los tiempos de entrega o en la mejora de costes.
         p.mb-3  Sin embargo, a pesar de estas ventajas, la funcionalidad logística seguía siendo una actividad menor en la administración empresarial. En la década de 1960 la administración logística, siguiendo los postulados de <i>marketing</i>, consigue una orientación hacia el comprador que se materializa en dar un servicio logístico ajustado a las necesidades y requisitos de este, y que posibilite su satisfacción. A partir de allí, la funcionalidad logística comienza a ser tratada como una actividad de carácter estratégico capaz de crear ventajas competitivas que diferencian a la organización de la competencia. A continuación, se relacionan aspectos importantes sobre el proceso de logística.
       .col-lg-5.slideInLeft
@@ -372,116 +372,116 @@
           table
             thead
               th.text-center.mw200 Símbolo
-              th.text-center Instrucción
-              th.mw200.text-center Significado
+              th.text-center.b-left Instrucción
+              th.mw200.text-center.b-left Significado
             tbody
               tr
                 td 
                   figure
                     img.nW.centered(src='@/assets/curso/t1-ic1.svg', alt='icono decorativo')    
-                td  No usar carretilla elevadora
-                td  La carga no se debe manipular con carretilla elevadora.
+                td.b-left  No usar carretilla elevadora
+                td.b-left  La carga no se debe manipular con carretilla elevadora.
               tr
                 td 
                   figure
                     img.nW.centered(src='@/assets/curso/t1-ic2.svg', alt='icono decorativo')    
-                td  Colocar mordazas aquí
-                td  Colocar las abrazaderas en los lados que se indica para manipular la carga.
+                td.b-left  Colocar mordazas aquí
+                td.b-left  Colocar las abrazaderas en los lados que se indica para manipular la carga.
               tr
                 td 
                   figure
                     img.nW.centered(src='@/assets/curso/t1-ic3.svg', alt='icono decorativo')    
-                td  No colocar mordazas aquí
-                td  No colocar las abrazaderas en los lados que se indica al manipular el embalaje.
+                td.b-left  No colocar mordazas aquí
+                td.b-left  No colocar las abrazaderas en los lados que se indica al manipular el embalaje.
               tr
                 td 
                   figure
                     img.nW.centered(src='@/assets/curso/t1-ic4.svg', alt='icono decorativo')    
-                td  Apilamiento limitado
-                td  Indica el peso máximo posible sobre la unidad de carga.
+                td.b-left  Apilamiento limitado
+                td.b-left  Indica el peso máximo posible sobre la unidad de carga.
               tr
                 td 
                   figure
                     img.nW.centered(src='@/assets/curso/t1-ic5.svg', alt='icono decorativo')    
-                td  Apilamiento limitado por número
-                td  Número máximo de embalajes iguales que se pueden apilar (n=número máx.).
+                td.b-left  Apilamiento limitado por número
+                td.b-left  Número máximo de embalajes iguales que se pueden apilar (n=número máx.).
               tr
                 td 
                   figure
                     img.nW.centered(src='@/assets/curso/t1-ic6.svg', alt='icono decorativo')    
-                td  No apilar
-                td  No se debe apilar ninguna otra carga encima.
+                td.b-left  No apilar
+                td.b-left  No se debe apilar ninguna otra carga encima.
 
               tr
                 td 
                   figure
                     img.nW.centered(src='@/assets/curso/t1-ic7.svg', alt='icono decorativo')    
-                td  
+                td.b-left  
                   p Eslingas aquí
                   figure
                     img.nW(src='@/assets/curso/t1-ic7-1.svg', alt='icono decorativo') 
-                td  Indica dónde se deben emplazar las eslingas para elevar la carga.
+                td.b-left  Indica dónde se deben emplazar las eslingas para elevar la carga.
                 
               tr
                 td 
                   figure
                     img.nW.centered(src='@/assets/curso/t1-ic8.svg', alt='icono decorativo')    
-                td  Límites de temperatura
-                td  Límites de temperatura entre los que se debe conservar y manipular la carga.
+                td.b-left  Límites de temperatura
+                td.b-left  Límites de temperatura entre los que se debe conservar y manipular la carga.
 
               tr
                 td 
                   figure
                     img.nW.centered(src='@/assets/curso/t1-ic9.svg', alt='icono decorativo')    
-                td  Frágil
-                td  El contenido del embalaje es frágil y se debe manejar con precaución.
+                td.b-left  Frágil
+                td.b-left  El contenido del embalaje es frágil y se debe manejar con precaución.
 
               tr
                 td 
                   figure
                     img.nW.centered(src='@/assets/curso/t1-ic10.svg', alt='icono decorativo')    
-                td  No usar garfios
-                td  No se pueden usar garfios en el manejo de la carga.
+                td.b-left  No usar garfios
+                td.b-left  No se pueden usar garfios en el manejo de la carga.
               tr
                 td 
                   figure
                     img.nW.centered(src='@/assets/curso/t1-ic11.svg', alt='icono decorativo')    
-                td  Mantener vertical
-                td  La unidad de carga se debe mantener en posición vertical.
+                td.b-left  Mantener vertical
+                td.b-left  La unidad de carga se debe mantener en posición vertical.
               tr
                 td 
                   figure
                     img.nW.centered(src='@/assets/curso/t1-ic12.svg', alt='icono decorativo')    
-                td  Proteger de la luz solar
-                td  La carga no debe exponerse a la luz solar u otras fuentes de calor.
+                td.b-left  Proteger de la luz solar
+                td.b-left  La carga no debe exponerse a la luz solar u otras fuentes de calor.
 
               tr
                 td 
                   figure
                     img.nW.centered(src='@/assets/curso/t1-ic13.svg', alt='icono decorativo')    
-                td  Mantener a resguardo de la lluvia
-                td  La carga debe mantenerse en un ambiente seco.
+                td.b-left  Mantener a resguardo de la lluvia
+                td.b-left  La carga debe mantenerse en un ambiente seco.
 
               tr
                 td 
                   figure
                     img.nW.centered(src='@/assets/curso/t1-ic14.svg', alt='icono decorativo')    
-                td  Centro de gravedad
-                td  Indica el centro de gravedad de la unidad de carga.
+                td.b-left  Centro de gravedad
+                td.b-left  Indica el centro de gravedad de la unidad de carga.
 
               tr
                 td 
                   figure
                     img.nW.centered(src='@/assets/curso/t1-ic15.svg', alt='icono decorativo')    
-                td  No rodar ni inclinar
-                td  La carga no se debe rodar ni inclinar o balancear.
+                td.b-left  No rodar ni inclinar
+                td.b-left  La carga no se debe rodar ni inclinar o balancear.
 
               tr
                 td 
                   figure
                     img.nW.centered(src='@/assets/curso/t1-ic16.svg', alt='icono decorativo')    
-                td  No manipular con las horquetas/horquillas en esta cara
-                td  Caras de la unidad de carga donde no se deben colocar las horquetas/horquillas de las carretillas manuales.
+                td.b-left  No manipular con las horquetas/horquillas en esta cara
+                td.b-left  Caras de la unidad de carga donde no se deben colocar las horquetas/horquillas de las carretillas manuales.
 
 
 

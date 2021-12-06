@@ -36,7 +36,7 @@
           .row.align-items-center
             .col-md-8.mb-4.mb-md-0.p-5
               .h4 Grúas
-              p Dependiendo de su implementación, de las propiedades de la mercancía, del volumen a manejar y del precio de inversión las hay de diferentes tipos como puente, cigüeña, martillo, móviles, de cuchara.
+              p Dependiendo de su implementación, de las propiedades de la mercancía, del volumen a manejar y del precio de inversión, las hay de diferentes tipos como puente, cigüeña, martillo, móviles, de cuchara.
             .col-md-4
               figure
                 img(src='@/assets/curso/t5-i2.png', alt='imagen decorativa')
