@@ -197,7 +197,8 @@ export default {
   ],
   complementario: [
     {
-      texto: 'Legiscomex. (s.f.). Tipos de carga, regularizado.',
+      texto:
+        'Legiscomex. (s.f.). Tipos de carga, regularizado. <br> <small>Apreciado Aprendiz, para la utilización del recurso de Legiscomex que se encuentra en el Sistema de Bibliotecas, es necesario el ingreso con sus datos de acceso (número de identificación en los campos de usuario y contraseña). Es importante que, ingrese primero a la biblioteca y posteriormente acceda con el enlace del recurso de Tipos de Carga, para que el sistema lo direccione al espacio correcto. </small>',
       tipo: 'Página web',
       link:
         'https://login.bdigital.sena.edu.co/login?url=https://www.legiscomex.com/Documentos/TIPOSDECARGA',
