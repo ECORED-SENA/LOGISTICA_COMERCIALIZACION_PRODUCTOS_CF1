@@ -197,7 +197,7 @@ export default {
   ],
   complementario: [
     {
-      texto: 'Legicomex. (s.f.). Tipos de carga, regularizado.',
+      texto: 'Legiscomex. (s.f.). Tipos de carga, regularizado.',
       tipo: 'Página web',
       link:
         'https://login.bdigital.sena.edu.co/login?url=https://www.legiscomex.com/Documentos/TIPOSDECARGA',
@@ -319,6 +319,11 @@ export default {
       },
     ],
     gestoresRepositorio: [
+      {
+        nombre: 'Álvaro Andrés Angarita Ramirez',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',

@@ -55,7 +55,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/t1-i2.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4.shadow-box
-            p.mb-0.text-bold El término mercancía se define como cualquier bien o producto que se puede comercializar. Hay una extensa varievdad de objetos y materiales considerados como mercancías, que son transportados nacional e internacionalmente, con fines comerciales; por lo cual se debieron clasificar para que los transportistas logren realizar entregas con éxito. El cuidado en el funcionamiento de las cargas es demasiado fundamental en la logística, conforme el trato que reciba la misma, debido a que podría provocar una variación del producto para el cliente. De esta forma, las cargas tienen que clasificarse de acuerdo con el tipo o estado físico de la mercancía, para asegurar su adecuado transporte y entrega. 
+            p.mb-0.text-bold El término mercancía se define como cualquier bien o producto que se puede comercializar. Hay una extensa variedad de objetos y materiales considerados como mercancías, que son transportados nacional e internacionalmente, con fines comerciales; por lo cual se debieron clasificar para que los transportistas logren realizar entregas con éxito. El cuidado en el funcionamiento de las cargas es demasiado fundamental en la logística, conforme el trato que reciba la misma, debido a que podría provocar una variación del producto para el cliente. De esta forma, las cargas tienen que clasificarse de acuerdo con el tipo o estado físico de la mercancía, para asegurar su adecuado transporte y entrega. 
 
     p.mb-5 Los productos y mercancías, de acuerdo con su tipo, se clasifican de la siguiente forma: 
 
@@ -255,7 +255,7 @@
 
       .row(titulo="Buque")
         .col-md-8.mb-4.mb-md-0
-          p.mb-3  El modo marítimo usa el buque como medio de transporte en el segmento primordial de su cadena de transporte. El pacto Marpol 73/78 lo define como toda clase de embarcación que opere en el medio marino, incluido los aliscafos, los aerodeslizadores, los sumergibles, las herramientas flotantes y las plataformas fijas o flotantes.
+          p.mb-3  El modo marítimo usa el buque como medio de transporte en el segmento primordial de su cadena de transporte. El pacto MARPOL 73/78 lo define como toda clase de embarcación que opere en el medio marino, incluido los aliscafos, los aerodeslizadores, los sumergibles, las herramientas flotantes y las plataformas fijas o flotantes.
           p.mb-3  Los buques han alcanzado un grado de especialización que pueden adaptarse a las diferentes características de las cargas que haya que transportar. En el mercado marítimo internacional existen buques mercantes acondicionados para transportar todo tipo de mercancías, atendiendo a su naturaleza, el volumen de la carga, la distancia entre puerto de origen y el de destino.
           
         .col-md-4
@@ -272,7 +272,7 @@
 
       .row(titulo="Buque granelero")
         .col-md-8.mb-4.mb-md-0
-          p.mb-3  Buque construido con una única cubierta, con tanques en la parte superior y tanques laterales de tolva en los espacios de carga, para el transporte de graneles firmes y líquidos. La parte  de sus bodegas tiene forma de pirámide para aprovechar mejor el espacio. Regularmente permanecen dotados con grúas. Ciertos buques pueden atender alternativamente el transporte de líquidos o firmes, como los denominados «obo».
+          p.mb-3  Buque construido con una única cubierta, con tanques en la parte superior y tanques laterales de tolva en los espacios de carga, para el transporte de graneles firmes y líquidos. La parte  de sus bodegas tiene forma de pirámide para aprovechar mejor el espacio. Regularmente permanecen dotados con grúas. Ciertos buques pueden atender alternativamente el transporte de líquidos o firmes, como los denominados «OBO».
           
         .col-md-4
           figure
