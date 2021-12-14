@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="81" height="81" viewBox="0 0 81 81">
+  <g id="t1-ic8" transform="translate(-377 -8603.088)">
+    <path id="Rectangle_34504" data-name="Rectangle 34504" d="M1,1V80H80V1H1M0,0H81V81H0Z" transform="translate(377 8603.088)"/>
+    <g id="Group_102729" data-name="Group 102729" transform="translate(-207.428 6803.8)">
+      <path id="Path_159173" data-name="Path 159173" d="M608.417,1852.431h-4.55v-1H607.9l21.293-29.708h5.58v1H629.71Z" transform="translate(4.474 2.813)"/>
+      <text id="C_max" data-name="C max" transform="translate(645.795 1822.288)" font-size="6" font-family="CenturyGothic, Century Gothic"><tspan x="-9.573" y="0">C max</tspan></text>
+      <text id="C_min" data-name="C min" transform="translate(601.427 1861.757)" font-size="5" font-family="CenturyGothic, Century Gothic"><tspan x="-7.095" y="0">C min</tspan></text>
+      <circle id="Ellipse_5036" data-name="Ellipse 5036" cx="6.079" cy="6.079" r="6.079" transform="translate(617.922 1851.444)"/>
+      <rect id="Rectangle_34528" data-name="Rectangle 34528" width="4.31" height="23.826" transform="translate(621.846 1834.524)"/>
+      <path id="Rectangle_34529" data-name="Rectangle 34529" d="M1.462-.5H2.848A1.964,1.964,0,0,1,4.81,1.462V39.493a1.964,1.964,0,0,1-1.962,1.962H1.462A1.964,1.964,0,0,1-.5,39.493V1.462A1.964,1.964,0,0,1,1.462-.5ZM2.848,40.455a.963.963,0,0,0,.962-.962V1.462A.963.963,0,0,0,2.848.5H1.462A.963.963,0,0,0,.5,1.462V39.493a.963.963,0,0,0,.962.962Z" transform="translate(621.846 1817.395)"/>
+    </g>
+  </g>
+</svg>

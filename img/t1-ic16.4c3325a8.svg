@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="81" height="81" viewBox="0 0 81 81">
+  <g id="t1-ic16" transform="translate(-377 -9378.324)">
+    <path id="Rectangle_34488" data-name="Rectangle 34488" d="M1,1V80H80V1H1M0,0H81V81H0Z" transform="translate(377 9378.324)"/>
+    <g id="Group_102719" data-name="Group 102719" transform="translate(398 9386.324)">
+      <path id="Path_159165" data-name="Path 159165" d="M56.994,1855.09a1,1,0,0,1-.3-1.955l11.024-3.416,11.327-43.367.22-.2,11.474-10.416a1,1,0,1,1,1.344,1.481l-11.254,10.216L69.377,1851.3l-12.086,3.745A1,1,0,0,1,56.994,1855.09Z" transform="translate(-56.994 -1796.476)"/>
+      <path id="Line_282" data-name="Line 282" d="M23.721,22.239a1,1,0,0,1-.667-.255L-.667.745A1,1,0,0,1-.745-.667,1,1,0,0,1,.667-.745L24.388,20.494a1,1,0,0,1-.667,1.745Z" transform="translate(13.956 18.228)"/>
+      <path id="Line_283" data-name="Line 283" d="M0,13.451a1,1,0,0,1-.947-.68A1,1,0,0,1-.32,11.5L36.543-.947a1,1,0,0,1,1.267.627A1,1,0,0,1,37.183.947L.32,13.4A1,1,0,0,1,0,13.451Z" transform="translate(1.302 24.331)"/>
+      <path id="Line_284" data-name="Line 284" d="M30.272,1H0A1,1,0,0,1-1,0,1,1,0,0,1,0-1H30.272a1,1,0,0,1,1,1A1,1,0,0,1,30.272,1Z" transform="translate(1.546 64.124)"/>
+      <circle id="Ellipse_5030" data-name="Ellipse 5030" cx="5.411" cy="5.411" r="5.411" transform="translate(17.211 46.791)"/>
+    </g>
+  </g>
+</svg>
